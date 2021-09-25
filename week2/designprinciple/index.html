@@ -1,47 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Design Principle</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <meta name="author" content="Berny Fred">
-    <meta name="description" content="Basic grid sample assignments">
+    <meta name="description" content="Design Principle and Basic grid sample assignments">
+  
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link href="css/min.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
 </head>
+
 <body>
+    <header>
+        <h1>Design Principles Document</h1>
+        <h2>Berny Fred</h2>
+    </header>
+
     <main>
-        <h1>Design</h1>
-        <div class="dog">
-          <div>
-            <h2>Design 1</h2>
+        <section>
+            <header>
+                <h2>Hierarchy</h2>
+            </header>
+            <h3>CNN.com</h3>
+            <a href="https://edition.cnn.com/">https://edition.cnn.com/</a>
             <figure>
-              <img src="images/cows.jpg" alt="Herford Cows">
-              <figcaption>Horford Cows</figcaption>
+                <img src="images/whitespace.png" alt="photo of whitespace website">
+                <figcaption>CNN.com</figcaption>
             </figure>
-            <a href="#">Link 1</a>
-            <p>description paragraphs description paragraphs  description paragraphs  description paragraphs</p>
-          </div>
-          <div>
-            <h2>Design 1</h2>
+            <p>
+                This is an example of hierarchy design. Some of the texts in this website are biger
+                and some of them are smaller.
+            </p>
+        </section>
+        <section>
+            <header>
+                <h2>Contrast Design</h2>
+            </header>
+            <h3>McDonald.com</h3>
+            <a href="https://www.mcdonalds.com/us/en-us.html">https://www.mcdonalds.com/us/en-us.html</a>
             <figure>
-              <img src="images/cows.jpg" alt="Herford Cows">
-              <figcaption>Horford Cows</figcaption>
+                <img src="images/repetitive.png" alt="photo of repetitive website">
+                <figcaption>McDonald.com</figcaption>
             </figure>
-            <a href="#">Link 1</a>
-            <p>description paragraphs description paragraphs  description paragraphs  description paragraphs</p>
-          </div>
-          <div>
-            <h2>Design 1</h2>
+            <p>
+                This website is using a repetitive design. Yellow color is repeating throughout the entire website.
+            </p>
+        </section>
+        <section>
+            <header>
+                <h2>Alignment</h2>
+            </header>
+            <h3>Amazon.com</h3>
+              <a href="https://www.amazon.com/">https://www.amazon.com</a>
             <figure>
-              <img src="" alt="Herford Cows">
-              <figcaption>Horford Cows</figcaption>
+                <img src="images/whitespace.png" alt="photo of whitespace website">
+                <figcaption>Hovermanins.com</figcaption>
             </figure>
-            <a href="#">Link 1</a>
-            <p>description paragraphs description paragraphs  description paragraphs  description paragraphs</p>
-          </div>
-        </div>
-      </main>
-</body>
+            <p>
+                White space not only makes the website look clean but also makes the elements on the 
+                website readable. This website uses this principle. In this example, we can see spaces between the
+                sentences. We can also see a space between the writings and the picture. These white spaces made the
+                picture and the writing stand out.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        &copy;2021 | Berny Fred | <a href="https://www.byui.edu">BYUI Online Learning</a><br>
+        Today's Date: <span id="currentdate"></span>
+    </footer>
+    <script src="js/currentdate.js">
+    </script>
+
 </html>
