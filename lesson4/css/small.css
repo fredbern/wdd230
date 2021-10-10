@@ -1,0 +1,140 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.headerWrapper {
+    background-color: #ff715b;
+}
+header {
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    width: 80px;
+    height: auto;
+}
+
+.headings {
+    display: flex;
+    flex-direction: column;
+}
+
+.headings h1 {
+    font-size: 1.6rem;
+    margin: 0 0 0 17px;
+    font-family: 'Ephesis', cursive;
+}
+
+
+.m {
+    font-family: 'Inconsolata', monospace;
+    letter-spacing: 1pt;
+    color: rgb(247, 247, 247);
+    margin-left: 20px;
+    font-size: .9rem;
+}
+
+.navWrapper { 
+    background-color: #1ea896;
+}
+nav button {
+    margin: .2rem 1%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    /* apple recomment 44px = 1.6rem */
+    color: #fff;
+}
+
+nav {
+    font-family: sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    /*make the button clikable, make the anger<a> wider*/
+    padding: .8rem 2%;
+    /*make the button clikable bigger so they can touch by the finger */
+    text-decoration: none;
+    /*remove the underline*/
+    color: #000;
+    /*remove the blue color*/
+    border-top: 1px solid rgba(255, 255, 255, 0.8);
+    /*add border to the top with 3% of color black #000*/
+
+}
+
+nav ul li.active a {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+
+/*use way finding by controling the active class*/
+
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+nav ul.hide {
+    display: none;
+}
+
+/*main*/
+.mainWrapper {
+    background-color: #ffffff;
+}
+
+main {
+    display: block;
+}
+
+main h1 {
+    color: #ff715b;
+    padding: .6rem 2%;
+    font-size: 1.6rem;
+    font-family: 'Ephesis', cursive;
+}
+
+
+main>div {
+    display: block;
+    background-color: whitesmoke;
+}
+main>div>p {
+    color:#4C5454;
+    padding: .6rem 2%;
+}
+
+.footerWrapper {
+    background: #ff715b;
+}
+footer {
+    
+    padding: 2%;
+    text-align: center;
+    color: #fff;
+
+}
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
