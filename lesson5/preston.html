@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>96th Floor Weather</title>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;1,700&family=Ephesis&family=Inconsolata:wght@400;900&family=Italianno&display=swap"
+        rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.png">
+
+</head>
+
+<body>
+    <div class="headerWrapper">
+        <header class="clearfix">
+            <picture>
+                <img src="images/logo.png" alt="The world logo">
+            </picture>
+            <section class="headings">
+                <h1>96th Floor Weather</h1>
+                <h2 class="m">Better Weather Up Here</h2>
+            </section>
+        </header>
+    </div>
+    <div class="navWrapper">
+        <nav class="clearfix">
+            <!--Added clearfix prevents other items from collaping with the nav-->
+            <button onclick="toggleMenu()">&#9776</button>
+            <ul class="hide" id="primaryNav">
+                <li class="home"><a href="#">Home</a></li>
+                <li class="active"><a href="preston4.html">Preston</a></li>
+                <li><a href="#">Sota Springs</a></li>
+                <li><a href="#">Fish Heaven</a></li>
+                <li><a href="#">Storm Center</a></li>
+                <li><a href="#">Gallery</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="mainWrapper">
+        <main>
+            <div id="message" class="showme">The message about Sunday Church</div>
+            <h1>Preston Town</h1>
+            <div class="herodiv">
+                <figure class="hero">
+                    <img src="images/sokehs-medium.jpg" alt="hero" srcset="">
+                </figure>
+                <section class="summary">
+                    <h5>Weather summary</h5>
+                    <p>High:76 ℉</p>
+                    <p>Wind Chill: 15mph</p>
+                    <p>Humidity: 69%</p>
+                </section>
+            </div>
+            <h2 class="forecast-h2">Five Day Forecast</h2>
+            <section class="forecast">
+                <div>
+                    <h5>Monday</h5>
+                    <img src="images/cloudy.png" alt="cloudy">
+                    <p>40 degree</p>
+                </div>
+                <div>
+                    <h5>Tuesday</h5>
+                    <img src="images/snow.png" alt="snow">
+                    <p>30 degree</p>
+                </div>
+                <div>
+                    <h5>Wednesday</h5>
+                    <img src="images/sunny.png" alt="sunny">
+                    <p>70 degree</p>
+                </div>
+                <div>
+                    <h5>Thursday</h5>
+                    <img src="images/sunny.png" alt="sunny">
+                    <p>70 degree</p>
+                </div>
+                <div>
+                    <h5>Friday</h5>
+                    <img src="images/snow.png" alt="snow">
+                    <p>30 degree</p>
+                </div>
+            </section>
+            <section class="article">
+                <figure>
+                    <img src="images/andrea-piacquadio.jpg" alt="Andrea Piacquadio">
+                    <figcaption>Photo by Andrea Piacquadio from Pexels</figcaption>
+                </figure>
+
+                <h1>Article</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel mauris pretium, tempus elit vel,
+                    condimentum
+                    ex. Aliquam tempus arcu vitae massa fermentum mattis. Vestibulum ante ipsum primis in faucibus orci
+                    luctus et
+                    ultrices posuere cubilia Curae; Donec vel sapien gravida, consequat tellus non, rhoncus est.
+                    Maecenas tincidunt
+                    placerat posuere. Quisque elementum consequat augue vel finibus. Vivamus mi nibh, mattis sit amet
+                    sapien ut,
+                    posuere malesuada leo. Phasellus facilisis enim lorem, sed ultricies diam maximus in. Maecenas
+                    fermentum eu mi
+                    vitae pretium.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel mauris pretium, tempus elit vel,
+                    condimentum
+                    ex. Aliquam tempus arcu vitae massa fermentum mattis. Vestibulum ante ipsum primis in faucibus orci
+                    luctus et
+                    ultrices posuere cubilia Curae; Donec vel sapien gravida, consequat tellus non, rhoncus est.
+                    Maecenas tincidunt
+                    placerat posuere. Quisque elementum consequat augue vel finibus. Vivamus mi nibh, mattis sit amet
+                    sapien ut,
+                    posuere malesuada leo. Phasellus facilisis enim lorem, sed ultricies diam maximus in. Maecenas
+                    fermentum eu mi
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel mauris pretium, tempus elit vel,
+                    condimentum
+                    ex. Aliquam tempus arcu vitae massa fermentum mattis. Vestibulum ante ipsum primis in faucibus orci
+                    luctus et
+                    ultrices posuere cubilia Curae; Donec vel sapien gravida, consequat tellus non, rhoncus est.
+                    Maecenas tincidunt
+                    placerat posuere. Quisque elementum consequat augue vel finibus. Vivamus mi nibh, mattis sit amet
+                    sapien ut,
+                    posuere malesuada leo. Phasellus facilisis enim lorem, sed ultricies diam maximus in. Maecenas
+                    fermentum eu mi 
+                </p>
+            </section>
+            <section class="contact-section">
+                <h2>Contact Us</h2>
+                <div class="contact">
+                    <section>
+                        <h5>Address:</h5>
+                        <p>The Weather Center</p>
+                        <p>123 Main Street.</p>
+                        <p>Franklin, MI 87654</p>
+                    </section>
+                    <section>
+                        <h5>Phone:</h5>
+                        <p>1234-111-1311</p>
+                        <h5>Email</h5>
+                        <p>freddy@example.com</p>
+                    </section>
+                    <section>
+                        <img src="images/sokehs-medium.jpg" alt="sokehs">
+                    </section>
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+    <div class="footerWrapper">
+        <footer>
+            &copy <span id="publishDate"> </span> Berny Fred &copy <span id="thisYear"></span>
+        </footer>
+    </div>
+
+    <script src="js/scripts.js">
+
+    </script>
+</body>
+
+</html>
