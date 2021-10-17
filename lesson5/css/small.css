@@ -30,7 +30,7 @@ header img {
 }
 
 .headings h1 {
-    font-size: 1.6rem;
+    font-size: 2rem;
     margin: 0 0 0 17px;
     font-family: 'Inconsolata', monospace;
     text-shadow: 1px 1px 2px rgba(0,0,0, .6);
@@ -102,6 +102,7 @@ nav ul.hide {
 
 main {
     display: block;
+    background-color: #fcfbf9;
 }
 
 div#message {background-color: yellow; padding: .6rem 2%;}
@@ -111,6 +112,7 @@ div.hideme{display: none;}
 main figure {
     margin: 0 auto;
     display:block;
+    padding: .2rem;
 }
 
 .hero>img {
@@ -122,11 +124,10 @@ main figure {
 }
 
 section.summary {
-    margin: .6rem;
+    margin: .2rem;
     padding: .5rem;
-    opacity: .8;
     background: #ff715b;
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    box-shadow: rgb(38, 57, 77) 0px 15px 30px -10px;
 }
 .summary h5, .summary>p  {
     margin: 0;
@@ -136,10 +137,12 @@ section.summary {
 
 
 main h1 {
-    padding: .6rem 2%;
-    font-size: 1.6rem;
+    margin: 1rem 0;
+    padding: 0 2%;
+    font-size: 2rem;
     font-family: 'Inconsolata', monospace;
-    text-shadow: 2px 2px 4px green;
+    color: #ff715b;
+    text-shadow: 1px 1px 2px rgba(0,0,0, .6);
 }
 
 
@@ -164,16 +167,25 @@ section.forecast {
 /* -----------------------article------------------------------*/
 
 section.article {
-    padding: 1rem 2%;
+    padding: 0 2%;
     display: block;
 }
 section.article h2 {
-    color: #19a8e4;
+    margin: 1rem 0 0 0;
+    padding: 0;
+    color: #ff715b;
+    font-family: 'Inconsolata', monospace;
+    text-shadow: 1px 1px 2px rgba(0,0,0, .6);
+}
+section.article>p {
+    font-family: 'Inconsolata', monospace;
 }
 
 section.article figure {
-    width: 100%;
     margin: 0;
+    padding: 0;
+    width: 100%;
+    
 }
 
 section.article img {
@@ -187,20 +199,42 @@ section.article figcaption {
 
 
 /* ------------------ contact info ------------------ */
-    div.contact {
-        margin-bottom: 2rem;
-    }
-    
 
-    div.contact section img {
-        width: 100%;
-    }
+.contact-section {
+    margin: 0 2%;
+    padding: 0;
+} 
+hr {
+    margin: 0;
+}
+.contact-section h2 {
+    margin: 0;
+    padding: 0;
+    color: #ff715b;
+    font-family: 'Inconsolata', monospace;
+    text-shadow: 1px 1px 2px rgba(0,0,0, .6);
+}
+.contact-section h5, .contact-section p {
+    margin: 0;
+    line-height: 2rem;
+}   
+div.contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+div.contact section:nth-child(3) {
+    grid-column: span 2;
+}
 
+div.contact section img {
+    width: 100%;
+}
 /*------------------------footer-------------------------------*/
 
 
 .footerWrapper {
     background: #ff715b;
+    padding: 1rem;
 }
 footer {
     
