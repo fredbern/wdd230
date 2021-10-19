@@ -30,18 +30,21 @@ header img {
 }
 
 .headings h1 {
-    font-size: 2rem;
+    font-size: 1.6rem;
     margin: 0 0 0 17px;
+    color: #000000;
     font-family: 'Inconsolata', monospace;
     text-shadow: 1px 1px 2px rgba(0,0,0, .6);
 }
 
 .m {
     font-family: 'Inconsolata', monospace;
-    letter-spacing: 1pt;
-    color: rgb(63, 51, 51);
+    letter-spacing: .1rem;
+    color: #000000;
     margin-left: 20px;
-    font-size: .9rem;
+    margin-top: 0;
+    padding: 0;
+    font-size: 1rem;
 }
 
 
@@ -129,9 +132,19 @@ section.summary {
     background: #ff715b;
     box-shadow: rgb(38, 57, 77) 0px 15px 30px -10px;
 }
-.summary h5, .summary>p  {
+.summary h1 {
+    font-size: 1.4rem;
+    color: #000000;
+}
+.summary>p {
+    font-size: 1.2rem;
+    letter-spacing: .1rem;
+    font-weight: 550;
+}
+.summary h1, .summary>p  {
+    font-family: 'Inconsolata', monospace;
     margin: 0;
-    padding: .2rem;
+    padding: .2rem 0;
     width: 200px;
 }
 
@@ -180,6 +193,7 @@ section.article h2 {
 }
 section.article>p {
     font-family: 'Inconsolata', monospace;
+    font-size: 1.4rem;
 }
 
 section.article figure {
@@ -203,7 +217,7 @@ section.article figcaption {
 
 .contact-section {
     margin: 0 2%;
-    padding: 0;
+    padding: 0 0 2% 0;
 } 
 hr {
     margin: 0;
@@ -240,7 +254,7 @@ div.contact section img {
 footer {
     padding: 2%;
     text-align: center;
-    color: #523f38;
+    color: #000000;
 
 }
 
