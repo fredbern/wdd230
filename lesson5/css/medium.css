@@ -3,8 +3,6 @@
     header h1, header h2 {
         padding: 0;
         margin: 0;
-        font-weight: bolder;
-        font-size: 2rem;
     }
 
     .headings h1 {
@@ -16,13 +14,9 @@
     }
     
     main h1 {
+        font-size: 2.4rem;
         padding: 0px;
         margin: 1.6% 0 0 2%;
-        font-size: 2rem;
-        color: #ff715b;
-        font-size: 3rem;
-        font-family: 'Inconsolata', monospace;
-        text-shadow: 2px 2px 4px green;
     }
     section.article p { 
         padding: 0;
@@ -85,24 +79,33 @@
         left: 10px;
         opacity: .8;
         padding: .5rem;
-        background: radial-gradient(rgb(63, 223, 63), rgb(115, 241, 136), rgb(71, 230, 71))
     }
+
     h5 {
         font-size: 1.2rem;
     }
 
     /*---------------------- forcast table ---------------------*/
     .forecast {
+        position: relative;
         margin: 0 2%;
+        background-color: #ffffff;
     }
     .forecast-h2 {
         display: block;
         padding: 0px;
         margin: 1.6% 0 0 2%;
         font-size: 2rem;
-        color: #ff715b;
         font-family: 'Inconsolata', monospace;
-        text-shadow: 1px 1px 2px rgba(0,0,0, .6);
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, .6);
+    }
+    .forecast p {
+        font-family: 'Italianno', cursive;
+        font-size: 1.6rem;
+        color: #aa3a12;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, .6);
+        letter-spacing: .9rem;
+        font-weight: bolder;
     }
     section.forecast{
         display: grid;
@@ -113,7 +116,7 @@
         text-align: center;
     }
     section.forecast div h5 {
-        background-color: gray;
+        background-color: #ff715b;
         margin: 0;
         padding: .4rem 0;
     }
@@ -125,11 +128,6 @@
         box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     }
     /* ------------------ article ----------------------- */
-    section.article h2 {
-        font-size: 2rem;
-        color: #ff715b;
-        text-shadow: 1px 1px 2px rgba(0,0,0, .6);
-    }
 
     .article p{
         color: #4c5454;
@@ -137,10 +135,8 @@
 
     /* ------------------ contact info ------------------ */
     .contact-section h2 {
-        margin: 1;
         margin: 1.6% 0 0 0;
         font-size: 2rem;
-        color: #ff715b;
     }
     div.contact {
         display: grid;
