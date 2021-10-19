@@ -39,7 +39,7 @@ header img {
 .m {
     font-family: 'Inconsolata', monospace;
     letter-spacing: 1pt;
-    color: rgb(247, 247, 247);
+    color: rgb(63, 51, 51);
     margin-left: 20px;
     font-size: .9rem;
 }
@@ -141,7 +141,7 @@ main h1 {
     padding: 0 2%;
     font-size: 2rem;
     font-family: 'Inconsolata', monospace;
-    color: #ff715b;
+    color: #523f38;
     text-shadow: 1px 1px 2px rgba(0,0,0, .6);
 }
 
@@ -173,7 +173,8 @@ section.article {
 section.article h2 {
     margin: 1rem 0 0 0;
     padding: 0;
-    color: #ff715b;
+    color: #523f38;
+    font-size: 2rem;
     font-family: 'Inconsolata', monospace;
     text-shadow: 1px 1px 2px rgba(0,0,0, .6);
 }
@@ -210,7 +211,7 @@ hr {
 .contact-section h2 {
     margin: 0;
     padding: 0;
-    color: #ff715b;
+    color: #523f38;
     font-family: 'Inconsolata', monospace;
     text-shadow: 1px 1px 2px rgba(0,0,0, .6);
 }
@@ -237,10 +238,9 @@ div.contact section img {
     padding: 1rem;
 }
 footer {
-    
     padding: 2%;
     text-align: center;
-    color: #fff;
+    color: #523f38;
 
 }
 
