@@ -17,13 +17,8 @@ nav ul li a {
 }
 /* ----------- main --------- */
 main h1 {
-    padding: 0px;
     margin: 0;
-    font-size: 2rem;
-    color: #ff715b;
     font-size: 3rem;
-    font-family: 'Inconsolata', monospace;
-    text-shadow: 2px 2px 4px green;
 }
 
 /*------------ forecast ---------- */
@@ -31,20 +26,14 @@ main h1 {
     margin: 0;
 }
 .forecast-h2 {
-    display: block;
-    padding: 0px;
     margin: 1.6% 0 0 0;
-    font-size: 2rem;
-    color: #ff715b;
-    font-family: 'Inconsolata', monospace;
-    text-shadow: 1px 1px 2px rgba(0,0,0, .6);
 }
 
 
 /* --------------- forecast ---------- */
 section.forecast {
     padding: 0;
-    width: 67rem;
+    width: 80%;
 }
 
 /* -------------- article ----------- */
@@ -72,8 +61,6 @@ div.contact section:nth-child(3) {
 .contact-section h2 {
     margin: 0;
     margin: 1% 0 0 0;
-    font-size: 2rem;
-    color: #ff715b;
 }
 .contact-section {
     margin: 0;
