@@ -128,9 +128,13 @@ main figure {
 
 section.summary {
     margin: .2rem;
-    padding: .5rem;
+    padding: .8rem 0 1rem .5rem;
     background: #ff715b;
     box-shadow: rgb(38, 57, 77) 0px 15px 30px -10px;
+}
+section.summary hr {
+    padding: 0;
+    margin: 0 0 .6rem 0;
 }
 .summary h1 {
     font-size: 1.4rem;
@@ -145,7 +149,7 @@ section.summary {
     font-family: 'Inconsolata', monospace;
     margin: 0;
     padding: .2rem 0;
-    width: 200px;
+    width: 100%;
 }
 
 
@@ -228,8 +232,9 @@ section.article figcaption {
     font-family: 'Inconsolata', monospace;
     text-shadow: 1px 1px 2px rgba(0,0,0, .6);
 }
-hr {
-    margin-bottom: 1.2rem;
+.contact-section hr {
+    margin: 0 0 .6rem 0;
+    padding: 0;
 }
 .contact-section h3 {
     margin: 0;
