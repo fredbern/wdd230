@@ -1,0 +1,281 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.headerWrapper {
+    background-color: #ff715b;
+}
+header {
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    width: 80px;
+    height: auto;
+}
+
+.headings {
+    display: flex;
+    flex-direction: column;
+}
+
+.headings h1 {
+    font-size: 1.6rem;
+    margin: 0 0 0 17px;
+    color: #000000;
+    font-family: 'Inconsolata', monospace;
+    text-shadow: 1px 1px 2px rgba(0,0,0, .6);
+}
+
+.m {
+    font-family: 'Inconsolata', monospace;
+    letter-spacing: .1rem;
+    color: #000000;
+    margin-left: 20px;
+    margin-top: 0;
+    padding: 0;
+    font-size: 1rem;
+}
+
+
+/*------------------------nav-------------------------------*/
+
+
+.navWrapper { 
+    background-color: #1ea896;
+}
+nav button {
+    margin: .2rem 1%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;  /* apple recomment 44px = 1.6rem */
+    color: #fff;
+}
+
+nav {
+    font-family: sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block; /*make the button clikable, make the anger<a> wider*/
+    padding: .8rem 2%; /*make the button clikable bigger so they can touch by the finger */
+    text-decoration: none; /*remove the underline*/
+    color: #000; /*remove the blue color*/
+    border-top: 1px solid rgba(255, 255, 255, 0.8); /*add border to the top with 3% of color black #000*/
+
+}
+
+nav ul li.active a {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #fff;
+} /*use way finding by controling the active class*/
+
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+nav ul.hide {
+    display: none;
+}
+
+
+
+/*------------------------main-------------------------------*/
+
+
+.mainWrapper {
+    background-color: #ffffff;
+}
+
+main {
+    display: block;
+    background-color: #fcfbf9;
+}
+
+div#message {background-color: yellow; padding: .6rem 2%;}
+div.showme{display: block;}
+div.hideme{display: none;}
+
+main figure {
+    margin: 0 auto;
+    display:block;
+    padding: .2rem;
+}
+
+.hero>img {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+section.summary {
+    margin: .2rem;
+    padding: .5rem;
+    background: #ff715b;
+    box-shadow: rgb(38, 57, 77) 0px 15px 30px -10px;
+}
+.summary h1 {
+    font-size: 1.4rem;
+    color: #000000;
+}
+.summary>p {
+    font-size: 1.2rem;
+    letter-spacing: .1rem;
+    font-weight: 550;
+}
+.summary h1, .summary>p  {
+    font-family: 'Inconsolata', monospace;
+    margin: 0;
+    padding: .2rem 0;
+    width: 200px;
+}
+
+
+main h1 {
+    margin: 1rem 0;
+    padding: 0 2%;
+    font-size: 2rem;
+    font-family: 'Inconsolata', monospace;
+    color: #523f38;
+    text-shadow: 1px 1px 2px rgba(0,0,0, .6);
+}
+
+
+main>div {
+    display: block;
+    background-color: whitesmoke;
+}
+
+main>div>p {
+    color:#4C5454;
+    padding: .6rem 2%;
+}
+/*------------------------ weather forcast-------------------------------*/
+.forecast-h2 {
+    display: none;
+}
+section.forecast {
+    display: none;
+}
+
+
+/* -----------------------article------------------------------*/
+
+section.article {
+    padding: 0 2%;
+    display: block;
+}
+section.article h2 {
+    margin: 1rem 0 0 0;
+    padding: 0;
+    color: #523f38;
+    font-size: 2rem;
+    font-family: 'Inconsolata', monospace;
+    text-shadow: 1px 1px 2px rgba(0,0,0, .6);
+}
+section.article>p {
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.4rem;
+}
+
+section.article figure {
+    margin: 0;
+    padding: 0 0 .4rem 0;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+
+section.article img {
+    width: 100%;
+}
+
+section.article figcaption {
+    text-align: center;
+    font-size: .8rem;
+}
+
+
+/* ------------------ contact info ------------------ */
+
+.contact-section {
+    margin: 0 2%;
+    padding: 0 0 2% 0;
+} 
+hr {
+    margin-bottom: 1.2rem;
+}
+.contact-section h3 {
+    margin: 0;
+    padding: 0;
+    color: #523f38;
+    font-family: 'Inconsolata', monospace;
+    text-shadow: 1px 1px 2px rgba(0,0,0, .6);
+}
+.contact-section h3, .contact-section p {
+    margin: 0;
+    line-height: 2rem;
+}   
+div.contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+div.contact section:nth-child(3) {
+    grid-column: span 2;
+    border: #000 1px solid;
+    padding: 0;
+}
+
+div.contact section iframe {
+    width: 100%;
+    
+}
+iframe {
+    border:0;
+}
+/*------------------------footer-------------------------------*/
+
+
+.footerWrapper {
+    background: #ff715b;
+    padding: 1rem;
+}
+footer {
+    padding: 2%;
+    text-align: center;
+    color: #000000;
+    font-size: 1.2rem;
+    font-family: 'Inconsolata', monospace;
+    font-weight: bold;
+    letter-spacing: .2rem;
+
+}
+
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
