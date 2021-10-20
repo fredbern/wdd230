@@ -21,6 +21,13 @@
         padding: 0px;
         margin: 1.6% 0 0 2%;
     }
+
+    section.summary {
+        margin: .2rem;
+        padding-right: .5rem;
+        width: 350px;
+    }
+
     section.article p { 
         padding: 0;
         margin: 0;
@@ -90,12 +97,17 @@
         font-family: 'Inconsolata', monospace;
         text-shadow: 1px 1px 2px rgba(0, 0, 0, .6);
     }
+    section.forecast img {
+        margin-top: .8rem;
+    }
     .forecast p {
+        margin: .5rem;
+        padding: 0;
         font-family: 'Italianno', cursive;
+        letter-spacing: .9rem;
         font-size: 1.6rem;
         color: #aa3a12;
         text-shadow: 1px 1px 2px rgba(0, 0, 0, .6);
-        letter-spacing: .9rem;
         font-weight: bolder;
     }
     section.forecast{
@@ -116,6 +128,7 @@
         float: right;
         width: 50%;
         margin-left: 2%;
+        margin-bottom: .4rem;
     }
     /* ------------------ article ----------------------- */
 

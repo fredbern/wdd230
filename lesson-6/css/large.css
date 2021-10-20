@@ -43,7 +43,6 @@ section.article {
 }
 section.article figure{
     width: 30%;
-    margin-bottom: .4rem;
 }
 section.article>p {
     font-size: 1.4rem;
