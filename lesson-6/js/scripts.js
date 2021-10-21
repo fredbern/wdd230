@@ -13,7 +13,7 @@ const todayNumber = today.getDay();
 console.log(todayNumber);
 
 const element = document.getElementById("message");
-if (todayNumber == 5) {
+if (todayNumber == 0) {
     element.classList.add("shome");
 } else {
     element.classList.add("hideme");
