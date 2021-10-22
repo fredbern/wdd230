@@ -259,9 +259,9 @@ div.contact section:nth-child(3) {
 
 div.contact section iframe {
     width: 100%;
-    
 }
 iframe {
+    display: block; /**/    
     border:0;
 }
 /*------------------------footer-------------------------------*/
