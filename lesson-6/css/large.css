@@ -41,13 +41,8 @@ section.article {
     padding: 0;
     display: block;
 }
-section.article figure{
+section.article picture {
     width: 30%;
-}
-section.article>p {
-    font-size: 1.4rem;
-    line-height: 1.4rem;
-    font-weight: lighter;
 }
 
 /* -------------- contact ----------- */

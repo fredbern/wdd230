@@ -198,11 +198,12 @@ section.article h2 {
 section.article>p {
     font-family: 'Inconsolata', monospace;
     font-size: 1.4rem;
+    color: #4c5454;
 }
 
-section.article figure {
+section.article picture {
     margin: 0;
-    padding: 0 0 .4rem 0;
+    padding: 0 0 1.2rem 0;
     width: 100%;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     
