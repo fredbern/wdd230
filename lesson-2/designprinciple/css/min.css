@@ -1,0 +1,106 @@
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* body rules here */
+body {
+    max-width:100%;
+    font-family: 'roboto', sans-serif;
+    font-size: 16px;
+    padding: 2em;
+    color: whitesmoke;
+}
+
+/* header rules here */
+header {
+    display: block;
+    text-align: center;
+    align-items: center;
+    border: 2px solid #464444;
+    background-color: #363836;
+    width: 100%;
+}
+
+header h1 {
+    color:#f7f5f5;
+}
+
+main header {
+    color:#424040;
+    border-radius: 10px;
+}
+header h1 {
+    margin: 0;
+}
+
+header h2 {
+    margin: 0;
+}
+
+main {
+    padding: 1rem 2%;
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 0.8rem;
+}
+
+main section {
+    margin: 0.5rem;
+    border: 1px solid #bbb;
+    background-color:#4e4e4e;
+    border-radius: 10px;
+}
+
+main section header {
+    text-align: left;
+    padding: 1rem 5%;
+    border: 1px solid #bbb;
+    color: white;
+    background-color: black;
+}
+
+main h3 {
+    padding: .12rem 5%;
+}
+main a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: medium;
+    font-weight: bold;
+    padding: .2rem 5%;
+}
+main a:hover  {
+    text-decoration: none;
+    color: yellow;
+}
+
+
+main figure img {width: 100%; padding:1rem;}
+main figure {
+    width: 100%;
+    margin: 0;
+}
+
+main figcaption {text-align: center; font-size: .8rem;}
+
+main p {
+    padding: .2rem 5%;
+    font-size: large;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 2%;
+    font-size: x-large;
+    border: 2px solid #464444;
+    padding: 1em;
+    color:#fffefe;
+    border: 2px solid #464444;
+    background-color: #363836;
+}
+footer a { color: #fffafa; font-size: x-large;}

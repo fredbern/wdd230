@@ -1,0 +1,161 @@
+/* 35em is also 560px when basefont is 16px */
+@media only screen and (min-width: 35rem) {
+    header h1, header h2 {
+        padding: 0;
+        margin: 0;
+    }
+
+    .headings h1 {
+        font-size: 2.5rem;
+    }
+    .m {
+        font-size: 1.2rem;
+    }
+
+    body {
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    }
+    
+    main h1 {
+        font-size: 2.4rem;
+        padding: 0px;
+        margin: 1.6% 0 0 2%;
+    }
+    section.article p { 
+        padding: 0;
+        margin: 0;
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .navWrapper {
+
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1ea896+0,7db9e8+100 */
+        background: #1ea896;
+        /* Old browsers */
+        background: -moz-linear-gradient(top, #1ea896 0%, #7db9e8 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, #1ea896 0%, #7db9e8 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, #1ea896 0%, #7db9e8 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1ea896', endColorstr='#7db9e8', GradientType=0);
+        /* IE6-9 */
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+    }
+
+
+    nav button {
+        display: none;
+    }
+
+    /*hide the button in the medium view*/
+
+    nav ul.hide {
+        display: block;
+    }
+
+    nav ul {
+        margin-left: 2%;
+    }
+
+    nav ul li {
+        float: left;
+        /* float angers to the left */
+    }
+
+    nav ul li a {
+        border: none;
+        /*take out the line on top of each link*/
+        border-right: 1px solid rgba(0, 0, 0.3);
+        padding: .6rem 1rem;
+    }
+
+    /*--------------hero--------------------*/
+
+    .herodiv {
+        position: relative;
+    }
+    .summary {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        opacity: .8;
+        padding: .5rem;
+    }
+
+    h4 {
+        font-size: 1.2rem;
+    }
+
+    /*---------------------- forcast table ---------------------*/
+    .forecast {
+        position: relative;
+        margin: 0 2%;
+        background-color: #ffffff;
+    }
+    .forecast-h2 {
+        display: block;
+        padding: 0px;
+        margin: 1.6% 0 0 2%;
+        font-size: 2rem;
+        font-family: 'Inconsolata', monospace;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, .6);
+    }
+    .forecast p {
+        font-family: 'Italianno', cursive;
+        font-size: 1.6rem;
+        color: #aa3a12;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, .6);
+        letter-spacing: .9rem;
+        font-weight: bolder;
+    }
+    section.forecast{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+    section.forecast div {
+        border: 1px solid rgb(92, 85, 85);
+        text-align: center;
+    }
+    section.forecast div h5 {
+        background-color: #ff715b;
+        margin: 0;
+        padding: .4rem 0;
+    }
+
+    section.article figure {
+        float: right;
+        width: 50%;
+        margin-left: 2%;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+    /* ------------------ article ----------------------- */
+
+    .article p{
+        color: #4c5454;
+    }
+
+    /* ------------------ contact info ------------------ */
+    .contact-section h2 {
+        margin: 1.6% 0 0 0;
+        font-size: 2rem;
+    }
+    div.contact {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    div.contact section:nth-child(3) {
+        grid-column: span 2;
+    }
+
+    footer {
+        font-size: 1.2rem;
+        letter-spacing: .6rem;
+        
+    
+    }
+
+}
+
+/*end medium */
