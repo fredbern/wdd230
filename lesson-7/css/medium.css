@@ -1,0 +1,176 @@
+/* 35em is also 560px when basefont is 16px */
+@media only screen and (min-width: 35rem) {
+    header h1, header h2 {
+        padding: 0;
+        margin: 0;
+    }
+
+    .headings h1 {
+        font-size: 2.5rem;
+    }
+    .m {
+        font-size: 1.2rem;
+    }
+
+    body {
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    }
+    
+    main h1 {
+        font-size: 2.4rem;
+        padding: 0px;
+        margin: 1.6% 0 0 2%;
+    }
+
+    section.summary {
+        margin: .2rem;
+        padding-right: .5rem;
+        width: 350px;
+    }
+
+    section.article p { 
+        padding: 0;
+        margin: 0;
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .navWrapper {
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+    }
+
+
+    nav button {
+        display: none;
+    }
+
+    /*hide the button in the medium view*/
+
+    nav ul.hide {
+        display: block;
+    }
+
+    nav ul {
+        margin-left: 2%;
+    }
+
+    nav ul li {
+        float: left;
+        /* float angers to the left */
+    }
+
+    nav ul li a {
+        border: none;
+        /*take out the line on top of each link*/
+        border-right: 1px solid rgba(0, 0, 0.3);
+        padding: .6rem 1rem;
+    }
+
+    /*--------------hero--------------------*/
+
+    .herodiv {
+        position: relative;
+    }
+    .summary {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        opacity: .8;
+        padding: .5rem;
+    }
+
+    h4 {
+        font-size: 1.2rem;
+    }
+
+    /*---------------------- forcast table ---------------------*/
+    .forecast {
+        position: relative;
+        margin: 0 2%;
+        background-color: #ffffff;
+    }
+    .forecast-h2 {
+        display: block;
+        padding: 0px;
+        margin: 1.6% 0 0 2%;
+        font-size: 2rem;
+        font-family: 'Inconsolata', monospace;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, .6);
+    }
+    section.forecast img {
+        margin-top: .8rem;
+    }
+    .forecast p {
+        margin: .5rem;
+        padding: 0;
+        font-family: 'Italianno', cursive;
+        letter-spacing: .9rem;
+        font-size: 1.6rem;
+        color: #aa3a12;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, .6);
+        font-weight: bolder;
+    }
+    section.forecast{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+    section.forecast div {
+        border: 1px solid rgb(92, 85, 85);
+        text-align: center;
+    }
+    section.forecast div h5 {
+        background-color: #ff715b;
+        margin: 0;
+        padding: .4rem 0;
+    }
+
+    section.article picture {
+        float: right;
+        width: 50%;
+        margin-left: 2%;
+        padding-bottom: .3rem;
+        margin-bottom: .4rem;
+    }
+    /* ------------------ article ----------------------- */
+    section.article>p {
+        font-size: 1.4rem;
+        line-height: 1.4rem;
+        font-weight: lighter;
+    }
+
+    /* gallery */
+
+    .gallery {
+        grid-template-columns: 1fr 1fr;
+        padding: .4rem;
+    }
+    section.gallery picture {
+        margin: .5rem;
+        box-shadow: rgba(14, 4, 4, 0.56) 0px 22px 70px 4px;
+        padding-bottom: .3rem;
+        font-size: .8rem;
+        text-align: center;
+    }
+    /* ------------------ contact info ------------------ */
+    .contact-section h2 {
+        margin: 1.6% 0 0 0;
+        font-size: 2rem;
+    }
+    div.contact {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    div.contact section:nth-child(3) {
+        grid-column: span 2;
+    }
+    
+    footer {
+        font-size: 1.2rem;
+        letter-spacing: .6rem;
+        
+    
+    }
+
+}
+
+/*end medium */
