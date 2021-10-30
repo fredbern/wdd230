@@ -17,8 +17,8 @@ nav ul li a {
 }
 /* ----------- main --------- */
 main h1 {
-    margin: 0;
-    font-size: 3rem;
+    margin: 2rem 0 .6rem 0;
+    font-size: 2rem;
 }
 
 /*------------ forecast ---------- */
@@ -48,12 +48,9 @@ section.article picture {
 .gallery {
     grid-template-columns: 1fr 1fr 1fr;
     padding: 0;
-    margin: 0;
 }
 
-section.gallery picture {
-    box-shadow: rgba(14, 4, 4, 0.56) 0px 22px 70px 4px;
-    padding:0 0 .3rem 0;
+div.gallery figure {
     font-size: .8rem;
     text-align: center;
 }
