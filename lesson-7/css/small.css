@@ -10,8 +10,14 @@ html {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
+body{
+    background: rgb(168,255,234);
+    background: linear-gradient(307deg, rgba(168,255,234,1) 0%, rgb(255, 255, 255) 50%, rgb(230, 230, 230) 100%);
+}
 .headerWrapper {
-    background-color: #ff715b;
+    /*background-color: #ff715b;*/
+    background: rgb(131,58,180);
+background: linear-gradient(307deg, rgba(131,58,180,1) 0%, rgba(255,113,91,1) 50%, rgba(252,176,69,1) 100%);
 }
 header {
     padding: 5px 0;
@@ -52,7 +58,8 @@ header img {
 
 
 .navWrapper { 
-    background-color: #1ea896;
+    background: rgb(34,193,195);
+    background: linear-gradient(103deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);    
 }
 nav button {
     margin: .2rem 1%;
@@ -99,9 +106,7 @@ nav ul.hide {
 /*------------------------main-------------------------------*/
 
 
-.mainWrapper {
-    background-color: #ffffff;
-}
+
 
 main {
     display: block;
@@ -292,7 +297,8 @@ iframe {
 
 
 .footerWrapper {
-    background: #ff715b;
+    background: rgb(131,58,180);
+    background: linear-gradient(307deg, rgba(131,58,180,1) 0%, rgba(255,113,91,1) 50%, rgba(252,176,69,1) 100%);
     padding: 1rem;
 }
 footer {

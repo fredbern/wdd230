@@ -1,3 +1,5 @@
+//message.......
+
 function toggleMenu() {
     console.log(document.getElementById("primaryNav").classList);
     document.getElementById("primaryNav").classList.toggle("hide");
@@ -18,3 +20,13 @@ if (todayNumber == 0) {
 } else {
     element.classList.add("hideme");
 }
+
+//load font families
+WebFont.load({google: {families: ["EB+Garamond:ital"]}})
+WebFont.load({google: {families: ["Ephesis&family"]}})
+WebFont.load({google: {families: ["Inconsolata"]}})
+WebFont.load({google: {families: ["Italianno"]}})
+
+//visited
+
+
