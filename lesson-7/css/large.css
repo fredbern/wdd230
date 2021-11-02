@@ -54,6 +54,9 @@ div.gallery figure {
     font-size: .8rem;
     text-align: center;
 }
+div.gallery figure img:hover {
+    box-shadow: rgba(0, 0, 0, 1) 20px 0px 56px 4px;
+}
 /* -------------- contact ----------- */
 div.contact {
     display: grid;
