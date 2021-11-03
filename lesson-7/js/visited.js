@@ -1,4 +1,5 @@
-let todayDate = Date.now();
+let date = new Date();
+let todayDate = date.getDate();
 localStorage.setItem("lastDate", todayDate);
 let lastDate = localStorage.getItem("lastDate");
 let lastVisit = ((todayDate - Date.now())/8640000).toFixed(10);
