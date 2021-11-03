@@ -88,7 +88,6 @@
     .forecast {
         position: relative;
         margin: 0 2%;
-        background-color: #ffffff;
     }
     .forecast-h2 {
         display: block;
@@ -114,10 +113,13 @@
     section.forecast{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    }
+}
     section.forecast div {
         border: 1px solid rgb(92, 85, 85);
         text-align: center;
+        background: rgb(252,136,114);
+        background: linear-gradient(180deg, rgba(252,136,114,1) 0%, rgba(245,241,244,1) 51%, rgba(233,233,233,1) 100%);
+    
     }
     section.forecast div h5 {
         background-color: #ff715b;
