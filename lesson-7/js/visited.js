@@ -1,10 +1,9 @@
-let date = new Date();
-let todayDate = date.getDate();
-localStorage.setItem("lastDate", todayDate);
+let date = Date.now();
+localStorage.setItem("lastDate", date);
 let lastDate = localStorage.getItem("lastDate");
-let lastVisit = ((lastDate - todayDate)/8640000).toFixed(10);
-console.log(todayDate);
+let lastVisit = ((Date.now() - lastDate)/86400).toFixed(0);
 console.log(lastVisit);
+console.log(Date.now());
 if (lastVisit < 1 ) {
     document.getElementById('date').innerHTML = `Today is your first visit to this website.`;
 } else {
