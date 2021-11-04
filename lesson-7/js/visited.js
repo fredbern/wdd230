@@ -2,7 +2,7 @@ let date = new Date();
 let todayDate = date.getDate();
 localStorage.setItem("lastDate", todayDate);
 let lastDate = localStorage.getItem("lastDate");
-let lastVisit = ((todayDate - Date.now())/8640000).toFixed(10);
+let lastVisit = ((lastDate - todayDate)/8640000).toFixed(10);
 console.log(todayDate);
 console.log(lastVisit);
 if (lastVisit < 1 ) {
