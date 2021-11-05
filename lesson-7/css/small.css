@@ -241,7 +241,6 @@ div.gallery figure {
     padding: 0 0 .3rem 0;
     background: rgb(244,130,7);
     background: linear-gradient(90deg, rgba(244,130,7,1) 0%, rgba(255,255,255,1) 49%, rgba(136,215,82,1) 100%);
-    border: darkcyan solid 2px;
     font-size: .8rem;
     text-align: center;
     font-weight: bolder;
