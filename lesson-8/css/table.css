@@ -1,0 +1,21 @@
+body {
+    font-family: Ubuntu, sans-serif;
+
+}
+:root {
+--drow_1:#e7f0ed;
+--drow_2: #e7ffed;
+--heading:#628ca6;
+--titleFooter: #7fb9c2;
+--white: white;
+--black: black;
+
+}
+
+#table {
+
+}
+
+tr:first-child {
+    
+}
