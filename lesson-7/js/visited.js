@@ -1,8 +1,15 @@
-// determine days between store date and visit date ... today
-// determine todays date
-const millisecondsToDays = 8940000;
-// last visit ... stored in localStorage
-const lastVisit = localStorage.getItem('lastvisit');
-// determine number of days (lastVisit - Date.now())  .toFixed(0)
-// display to wherever I want to
-// need update the stored date localStorage.setItem('lastvisit', Date.now());
+let todayDate = Date.now();
+localStorage.setItem("lastDate", todayDate);
+let lastDate = localStorage.getItem("lastDate");
+let lastVisit = ((todayDate - Date.now())/8640000).toFixed(10);
+console.log(todayDate);
+console.log(lastVisit);
+if (lastVisit < 1 ) {
+    document.getElementById('date').innerHTML = `Today is your first visit to this website.`;
+} else {
+    if (lastVisit == 1){
+        document.getElementById('date').innerHTML = `Thank you for visiting us again. Yesterday was you last visit.`;
+    } else {
+        document.getElementById('date').innerHTML = `Thank you for visiting us again. Your last visit was ${lastVisit} days ago.`;
+    }
+}
