@@ -101,17 +101,20 @@
                             <option value="Fish Haven">Fish Heaven</option>
                         </select>
                     </label>
-                    
-                    <div>Level of in-danger</div>
-                    <label class="sbs"><input type="radio" name="yes" value="yes"> Yes</label>
-                    <label class="sbs"><input type="radio" name="maybe" value="maybe"> Maybe</label>
-                    <label class="sbs"><input type="radio" name="no" value="no"> No</label>
 
+                    <div>Level of in-danger</div>
+                    <label class="sbs"><input type="radio" name="level" value="yes"> Yes</label>
+                    <label class="sbs"><input type="radio" name="level" value="maybe"> Maybe</label>
+                    <label class="sbs"><input type="radio" name="level" value="no"> No</label>
                 </fieldset>
                 <fieldset>
-                    <legend>Additional Information</legend>
+                    <legend>additional information</legend>
+                        <label>
+                            Your comments here
+                            <textarea name="comment" cols="30" rows="5"></textarea>
+                        </label> 
                 </fieldset>
-                <button type="submit" class="submit"></button>
+                <input type="submit" value="Send your comments" class="submitBtn">
             </form>
 
         </main>
