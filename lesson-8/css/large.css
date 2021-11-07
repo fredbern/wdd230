@@ -1,0 +1,108 @@
+/* 64em is also 1028px when basefont is 16px */
+@media only screen and (min-width: 64rem) {
+
+body {
+    background: rgb(131,58,180);
+    background: linear-gradient(307deg, rgba(131,58,180,1) 0%, rgba(255,113,91,1) 50%, rgba(252,176,69,1) 100%);
+    
+}
+header, nav, main, footer {
+    margin: 0 auto;
+    max-width: 70rem;
+    padding: 0 0;
+}
+
+
+/* ---------- nav ---------- */
+nav {
+    max-width: 78rem;
+    margin: 0 auto;
+}
+nav ul li a {
+    padding: .4rem 1rem;
+}
+.home {
+    margin-left: 1.2rem;
+}
+
+
+.mainWrapper {
+   max-width: 80rem;  
+   margin: 0 auto;
+   padding: 1%0;
+   background-color: rgb(214, 214, 214);
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;   
+}
+/* ----------- main --------- */
+main h1 {
+    margin: 2rem 0 .6rem 0;
+    font-size: 2rem;
+    background-color: transparent;
+}
+
+/*------------ forecast ---------- */
+.forecast {
+    margin: 0;
+}
+.forecast-h2 {
+    margin: 1.6% 0 0 0;
+}
+
+
+/* --------------- forecast ---------- */
+section.forecast {
+    padding: 0;
+    width: 80%;
+}
+
+/* -------------- article ----------- */
+section.article {
+    padding: 0;
+    display: block;
+}
+section.article picture {
+    width: 30%;
+}
+
+.gallery {
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0;
+    background-color: transparent;
+}
+
+div.gallery figure {
+    font-size: .8rem;
+    text-align: center;
+}
+div.gallery figure:hover {
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+    box-shadow:  rgb(19, 18, 18) 0px 0px 10px 5px; 
+}
+/* -------------- contact ----------- */
+div.contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+div.contact section:nth-child(3) {
+    grid-column: span 1;
+}
+.contact-section h2 {
+    margin: 0;
+    margin: 1% 0 0 0;
+}
+.contact-section {
+    margin: 0;
+} 
+.contact section {
+    padding:0 0 0  4%;
+}
+.footerWrapper {
+    background: transparent;
+
+}
+
+}/*end large */
