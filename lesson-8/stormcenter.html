@@ -55,12 +55,12 @@
         <main>
             <div id="message" class="showme">The message about Sunday Church</div>
             <h1>Storm Center</h1>
-            <form action="" method="post">
+            <form action="thanks.html" method="get">
                 <fieldset>
                     <legend>User Information</legend>
-                    <label class="top">Full Name* <input type="text" name="fname" pattern="[A-Za-z19]{5}" required></label>
+                    <label class="top">Full Name* <input type="name" name="fname" minlength="5" required name="fullName" onkeypress="return (event.charCode > 64 && event.charCode < 91) || (event.charCode == 32) || (event.charCode > 96 && event.charCode < 123)" ></label>
                     <label class="top">Email <input type="email" name="email" placeholder="email@email.com"></label>
-                    <label class="top">Phone Number* <input type="tel" name="phone" placeholder="233-320-2030"
+                    <label class="top">Phone Number* <input type="tell" name="phone" placeholder="233-320-2030"
                             required></label>
                     <label class="top">Zip* <input type="number" name="zip" placeholder="12323" required></label>
                 </fieldset>
@@ -76,10 +76,10 @@
                             <option value="Tornato">
                         </datalist>
                     </label>
-                    <label class="sbs">Rating: &nbsp;&nbsp;&nbsp;
-                        <input class="sbs" type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks"
+                    <div class="rating">Rating: </div>
+                        <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks"
                             oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
-                        <span id="ratingvalue">5</span>
+                            <span id="ratingvalue">5</span>
                         <datalist id="tickmarks">
                             <option value="0">
                             <option value="1">
@@ -93,7 +93,7 @@
                             <option value="9">
                             <option value="10">
                         </datalist>
-                    </label>
+
                     <label class="top">
                         Select Region 
                         <select name="region" id="region">

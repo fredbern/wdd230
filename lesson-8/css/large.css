@@ -82,6 +82,12 @@ div.gallery figure:hover {
     transition: all 300ms ease;
     box-shadow:  rgb(19, 18, 18) 0px 0px 10px 5px; 
 }
+
+
+/* -------------- form -------------- */
+form label.sbs {
+    padding: .4rem 0;
+}
 /* -------------- contact ----------- */
 div.contact {
     display: grid;
