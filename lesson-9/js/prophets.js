@@ -9,18 +9,19 @@ fetch(requestURL)
     .then(function (jsonObject) {
         console.table(jsonObject); // temporary checking for valid response and data parsing
         const prophets = jsonObject['prophets'];
+        prophets.forEach((prophets, index, array) => { //forEach is replacing the for loop
+            debugger;
 
-        for (let i = 0; i < prophets.length; i++) {
+        //for (let i = 0; i < prophets.length; i++) {
             let card = document.createElement('section');
             let h2 = document.createElement('h2');
             let span = document.createElement('span');
             let dateOfBirth = document.createElement('p');
             let placeOfBirth = document.createElement('p');
-            let picture = document.createElement('picture');
             let image = document.createElement('img');
-            image.setAttribute('data-src', prophets[i].imageurl);
+            image.setAttribute('data-src', array[index].imageurl);
             image.setAttribute('src', 'images/placeholder.jpg');
-            image.setAttribute('alt', prophets[i].name + ' ' + prophets[i].lastname);
+            image.setAttribute('alt', array[index].name + ' ' + array[index].lastname);
         
 
             //set my classes for my css
@@ -34,9 +35,9 @@ fetch(requestURL)
 
 
 
-            h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
-            dateOfBirth.textContent = 'Date of Birth: ' + prophets[i].birthdate;
-            placeOfBirth.textContent = 'Place of Birth: ' + prophets[i].birthplace;
+            h2.textContent = array[index].name + ' ' + array[index].lastname;
+            dateOfBirth.textContent = 'Date of Birth: ' + array[index].birthdate;
+            placeOfBirth.textContent = 'Place of Birth: ' + array[index].birthplace;
 
 
             card.appendChild(h2);
@@ -44,7 +45,8 @@ fetch(requestURL)
             card.appendChild(placeOfBirth);
             card.appendChild(image);
             document.querySelector('div.cards').appendChild(card);
-        }
+        //} //end of the for loor
+        }); //end of the forEach
 
 
 
