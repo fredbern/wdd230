@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+      #demo {
+        background-color: rgb(163, 163, 158);
+        padding: 2rem;
+        color: white;
+      }
+    </style>
+  </head>
+<body>
+
+<h2>JavaScript Functions</h2>
+
+<p>This example calls a function that performs a calculation, and returns the result:</p>
+
+<div id="demo"></div>
+
+<script>
+function parent(element) {
+  let card = document.createElement(element);
+  return card;
+}
+function texts(name, element, text) {
+  let te = document.createElement(element);
+  te.innerText = text;
+  te.setAttribute('class', name);
+  card.appendChild(te);
+  document.querySelector('div#demo').appendChild(card);
+  return te;
+};
+function setAttri(name, element, attrib, value){
+  name = document.createElement(element)
+  name.setAttribute(attrib, value);
+  card.appendChild(name);
+  return name;
+};
+function cId(name, element, attrib, value) {
+  name = querySelector('img');
+  name.setAttribute('alt', 'value');;
+};
+let card = parent('section');
+let Title = texts('section-title', 'h1', 'H!1');
+let Subtitle = texts('section-subtitle', 'h1', 'test');
+let p1 = texts('section-p1','p', 'houste');
+let image = setAttri('image','img','src', 'images/placeholder.jpg');
+image.setAttribute('alt','placeholder');
+image.setAttribute('class','section-image');
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+        
+        towns.forEach((towns, index, array) => {
+
+            const townName = `Name: ${array[index].name}`;
+            const motto = `motto: ${array[index].motto}`;
+            const yFound = `Year Found: ${array[index].yearFounded} `;
+
+            console.log(townName);
+            let card = document.createElement('section');
+            let h2 = document.createElement('h2');
+            h2.innerText = townName;
+            let p1 = document.createElement('p');
+            p1.innerText = motto;
+            let yearFound = document.createElement('p');
+            yearFound.innerText = yFound;        
+            let image = document.createElement('img');
+            image.setAttribute('data-src', array[index].imageurl);
+            image.setAttribute('src', 'images/placeholder.jpg');
+            image.setAttribute('alt', array[index].name);
+        
+            card.appendChild(h2);
+            card.appendChild(p1);
+            card.appendChild(yearFound);
+            document.querySelector('div.cards').appendChild(card);
+        
+        });
+    </script>
+</body>
+</html>
