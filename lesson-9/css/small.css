@@ -442,6 +442,10 @@
     form label.rating span {
     justify-content : center;
     }
+    input#rating {
+        width : 100%;
+        max-width : 19rem;
+    }
     form input.submitBtn {
     border : none;
     background : rgb(2, 238, 40);
