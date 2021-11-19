@@ -449,7 +449,6 @@
     form input.submitBtn {
     border : none;
     background : rgb(2, 238, 40);
-    box-shadow : 0 -23px 25px 0 rgb(0, 0, 0, 0.17) inset, 0 -36px 30px 0 rgb(0, 0, 0, 0.15) inset, 0 -79px 40px 0 rgb(0, 0, 0, 0.1) inset, 0 2px 1px rgb(0, 0, 0, 0.06), 0 4px 2px rgb(0, 0, 0, 0.09), 0 8px 4px rgb(0, 0, 0, 0.09), 0 16px 8px rgb(0, 0, 0, 0.09), 0 32px 16px rgb(0, 0, 0, 0.09);
     color : white;
     border-radius : 1rem;
     padding : 0.75rem 1.5rem;
@@ -457,9 +456,9 @@
     width : 96%;
     max-width : 20rem;
     }
-    form input.submitBtn:hover {
-    background : rgb(1, 143, 25);
-    box-shadow : 0 15px 25px rgb(0, 0, 0, 0.15), 0 5px 10px rgb(0, 0, 0, 0.05);
+    input.submitBtn:hover {
+        background-color: black;
+
     }
     form label.top input:required {
     border-left : 6px solid red;
@@ -514,7 +513,7 @@
     .highlights {
         margin: 1rem 1%;
         padding: 0.6rem 2% .2rem 2%;
-        background-color: rgb(255, 166, 0);
+        background-color: yellow;
         box-shadow : 0 -23px 25px 0 rgb(0, 0, 0, 0.17) inset, 0 -36px 30px 0 rgb(0, 0, 0, 0.15) inset, 0 -79px 40px 0 rgb(0, 0, 0, 0.1) inset, 0 2px 1px rgb(0, 0, 0, 0.06), 0 4px 2px rgb(0, 0, 0, 0.09), 0 8px 4px rgb(0, 0, 0, 0.09), 0 16px 8px rgb(0, 0, 0, 0.09), 0 32px 16px rgb(0, 0, 0, 0.09);
         border-radius: 2rem;
     }

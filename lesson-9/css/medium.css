@@ -155,7 +155,13 @@
 
     /*three town*/
     .highlights {
-        margin-bottom: 4rem;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        opacity: 0.8;
+        padding: 0.5rem;
+        width: 75%;
+
     }
     .highlights h2{
         font-size: 4rem;
