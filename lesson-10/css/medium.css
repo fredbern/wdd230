@@ -1,0 +1,242 @@
+@media only screen and (min-width: 35rem) {
+
+    header h1,
+    header h2 {
+        padding: 0;
+        margin: 0;
+    }
+
+    .headings h1 {
+        margin-top: 1rem;
+        font-size : 4rem;
+        font-family : 'Ephesis';
+        text-align: center;
+        text-shadow : 1px 1px 2px rgb(0, 0, 0, 0.6);
+    
+    }
+
+    .m {
+        margin: 0 0 .5rem 2rem;
+        font-size: 1.2rem;
+    }
+
+    body {
+        box-shadow: 0 2px 4px rgb(0, 0, 0, 0.4), 0 7px 13px -3px rgb(0, 0, 0, 0.3), 0 -3px 0 rgb(0, 0, 0, 0.2) inset;
+    }
+
+    main h1 {
+        margin: 1rem 0 0.6rem 0;
+        padding: 0;
+        font-size: 1.8rem;
+    }
+
+    section.summary {
+        margin: 0.2rem;
+        padding-right: 0.5rem;
+        width: 350px;
+    }
+
+    section.article p {
+        padding: 0;
+        margin: 0;
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    .navWrapper {
+        box-shadow: 0 50px 100px -20px rgb(50, 50, 93, 0.25), 0 30px 60px -30px rgb(0, 0, 0, 0.3), 0 -2px 6px 0 rgb(10, 37, 64, 0.35) inset;
+    }
+
+    nav button {
+        display: none;
+    }
+
+    nav ul.hide {
+        display: block;
+    }
+
+    nav ul {
+        margin-left: 2%;
+    }
+
+    nav ul li {
+        float: left;
+    }
+
+    nav ul li a {
+        border: none;
+        border-right: 1px solid rgb(0, 0, 0.3);
+        padding: 0.6rem 1rem;
+    }
+
+    .herodiv {
+        position: relative;
+    }
+
+    .summary {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        opacity: 0.8;
+        padding: 0.5rem;
+    }
+
+    h4 {
+        font-size: 1.2rem;
+    }
+
+    .forecast {
+        position: relative;
+        margin: 0 2%;
+    }
+
+    .forecast-h2 {
+        display: block;
+        padding: 0;
+        margin: 1.6% 0 0 2%;
+        font-size: 2rem;
+        font-family: 'Inconsolata', monospace;
+        text-shadow: 1px 1px 2px rgb(0, 0, 0, 0.6);
+    }
+
+    section.forecast img {
+        margin-top: 0.8rem;
+    }
+
+    .forecast p {
+        margin: 0.5rem;
+        padding: 0;
+        font-family: 'Italianno', cursive;
+        letter-spacing: 0.9rem;
+        font-size: 1.6rem;
+        color: #aa3a12;
+        text-shadow: 1px 1px 2px rgb(0, 0, 0, 0.6);
+        font-weight: bolder;
+    }
+
+    section.forecast {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    section.forecast div {
+        border: rgb(92, 85, 85) solid 1px;
+        text-align: center;
+        background: rgb(243, 235, 121);
+    }
+
+    section.forecast div h5 {
+        background-color: #d32d13;
+        margin: 0;
+        padding: 0.4rem 0;
+    }
+    form label.top, form div, legend {
+        font-size : 1.2rem;
+        }
+    section.article picture {
+        float: right;
+        width: 50%;
+        margin-left: 2%;
+        padding-bottom: 0.3rem;
+        margin-bottom: 0.4rem;
+    }
+
+    section.article>p {
+        font-size: 1.4rem;
+        line-height: 1.4rem;
+        font-weight: lighter;
+    }
+
+    .gallery {
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 4rem;
+    }
+
+    /*three town*/
+    .highlights {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        opacity: 0.8;
+        padding: 0.5rem;
+        width: 95%;
+
+    }
+    .highlights h2{
+        font-size: 4rem;
+    }
+    .highlights p{
+        font-size: 2rem;
+        margin: 0 3% 1rem 3%;
+    }
+    .section-town-h2{
+        font-size : 4rem;
+        font-family : 'Ephesis';
+        text-align: center;
+        text-shadow : 1px 1px 2px rgb(0, 0, 0, 0.6);        
+    }
+    .town-h2 {
+        font-size : 2.4rem;
+        font-family : 'Ephesis';
+        text-align: center;
+        text-shadow : 1px 1px 2px rgb(0, 0, 0, 0.6);
+    }
+    .cards {
+        margin-bottom: 4rem;
+        border-top-left-radius: 2rem;
+        border-bottom-right-radius: 2rem;
+        box-shadow : 0 -23px 25px 0 rgb(0, 0, 0, 0.17) inset, 0 -36px 30px 0 rgb(0, 0, 0, 0.15) inset, 0 -79px 40px 0 rgb(0, 0, 0, 0.1) inset, 0 2px 1px rgb(0, 0, 0, 0.06), 0 4px 2px rgb(0, 0, 0, 0.09), 0 8px 4px rgb(0, 0, 0, 0.09), 0 16px 8px rgb(0, 0, 0, 0.09), 0 32px 16px rgb(0, 0, 0, 0.09);
+    }
+    .section-town {
+        display: grid;
+        padding: 1rem;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 'left right';
+        border-top-left-radius: 2rem;
+        border-bottom-right-radius: 2rem;
+        box-shadow : 0 -23px 25px 0 rgb(0, 0, 0, 0.17) inset, 0 -36px 30px 0 rgb(0, 0, 0, 0.15) inset, 0 -79px 40px 0 rgb(0, 0, 0, 0.1) inset, 0 2px 1px rgb(0, 0, 0, 0.06), 0 4px 2px rgb(0, 0, 0, 0.09), 0 8px 4px rgb(0, 0, 0, 0.09), 0 16px 8px rgb(0, 0, 0, 0.09), 0 32px 16px rgb(0, 0, 0, 0.09);
+    }
+    .section-img {
+        border-bottom-right-radius: 2rem;
+        box-shadow : 0 -23px 25px 0 rgb(0, 0, 0, 0.17) inset, 0 -36px 30px 0 rgb(0, 0, 0, 0.15) inset, 0 -79px 40px 0 rgb(0, 0, 0, 0.1) inset, 0 2px 1px rgb(0, 0, 0, 0.06), 0 4px 2px rgb(0, 0, 0, 0.09), 0 8px 4px rgb(0, 0, 0, 0.09), 0 16px 8px rgb(0, 0, 0, 0.09), 0 32px 16px rgb(0, 0, 0, 0.09);
+    }
+
+    .section-town:nth-child(2) .section-div {
+        grid-area: right;
+    }
+    .section-town:nth-child(2) .section-img{
+        border-top-left-radius: 2rem;
+        border-bottom-right-radius: 0;
+    }
+
+    /*three town ends here*/
+
+    section.gallery figure {
+        box-shadow: 0 22px 70px 4px rgb(14, 4, 4, 0.56);
+        font-size: 0.8rem;
+        text-align: center;
+    }
+
+    .contact-section h2 {
+        font-size : 4rem;
+        font-family : 'Ephesis';
+        text-align: center;
+        text-shadow : 1px 1px 2px rgb(0, 0, 0, 0.6);
+    }
+
+
+    div.contact {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin-bottom: 4rem;
+    }
+
+    div.contact section:nth-child(3) {
+        grid-column: span 2;
+    }
+
+    footer {
+        font-size: 1.2rem;
+        letter-spacing: 0.6rem;
+    }
+}

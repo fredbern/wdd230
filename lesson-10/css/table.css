@@ -1,0 +1,57 @@
+:root {
+    --td-odd:#e7f0ed;
+    --td-even: #e7ffed;
+    --heading:#628ca6;
+    --titleFooter: #7fb9c2;
+    --white: white;
+    --black: black;
+    
+    }
+
+html {
+    font-family: Ubuntu, sans-serif;
+    text-align: center;
+}
+
+table {
+    margin: 0 auto;
+    border: black 1px solid;
+    border-collapse: collapse;
+
+}
+th, td {
+    border: solid black 1px;
+    padding: .4rem 1rem;
+    font-weight: bold;
+}
+thead tr:first-child {
+    background-color: var(--titleFooter);
+    font-size: 1.6rem;
+}
+thead tr:nth-child(2) {
+    background-color: var(--heading);
+    font-size: 1.2rem;
+}
+#special {
+    background-color: rgb(10, 114, 128);
+    color: white;
+}
+tbody tr:nth-child(odd) {
+    background-color: var(--td-odd);
+}
+tbody tr:nth-child(even) {
+    background-color: var(--td-even);
+}
+tbody tr:nth-child(5) td:first-child {
+    font-style: italic;
+}
+
+
+
+tfoot {
+    background-color: var(--titleFooter);
+    font-size: .9rem;
+}
+tfoot td {
+    padding: .6rem 1rem;
+}
