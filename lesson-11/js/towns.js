@@ -39,7 +39,7 @@ fetch(requestURL)
                 PannualRainFall.innerText = annualRainFall;
                 let image = document.createElement('img');
                 image.setAttribute('data-src', `images/${array[index].photo}`);
-                image.setAttribute('src', 'images/placeholder.jpg');
+                image.setAttribute('src', 'images/town_place_holder.jpg');
                 image.setAttribute('alt', array[index].name);
                 image.setAttribute('class','section-img');
 
