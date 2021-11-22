@@ -40,11 +40,7 @@
     }
 
     /* ----------- main --------- */
-    main h1 {
-        margin: 2rem 0 .6rem 0;
-        font-size: 2rem;
-        background-color: transparent;
-    }
+
 
     /*------------ forecast ---------- */
     .forecast {

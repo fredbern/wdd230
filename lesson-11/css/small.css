@@ -42,9 +42,6 @@
     font-display : swap;
     src : url(https://fonts.gstatic.com/s/italianno/v11/dg4n_p3sv6gCJkwzT6Rnjw.ttf) format('truetype');
     }
-    html {
-    line-height : 1.15;
-    }
     body {
     margin : 0;
     }
