@@ -337,10 +337,7 @@
     color : #4C5454;
     padding : 0.6rem 2%;
     }
-    .forecast-h2 {
-    display : none;
-    }
-    section.forecast {
+    section.forecast-section {
     display : none;
     }
     section.article {

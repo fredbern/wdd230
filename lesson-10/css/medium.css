@@ -84,14 +84,15 @@
     h4 {
         font-size: 1.2rem;
     }
-
+    section.forecast-section {
+        display : block;
+        }
     .forecast {
         position: relative;
         margin: 0 2%;
     }
 
     .forecast-h2 {
-        display: block;
         padding: 0;
         margin: 1.6% 0 0 2%;
         font-size: 2rem;
@@ -114,18 +115,18 @@
         font-weight: bolder;
     }
 
-    section.forecast {
+    div.forecast {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     }
 
-    section.forecast div {
+    div.forecast div {
         border: rgb(92, 85, 85) solid 1px;
         text-align: center;
         background: rgb(243, 235, 121);
     }
 
-    section.forecast div h5 {
+    div.forecast div h5 {
         background-color: #f18979;
         margin: 0;
         padding: 0.4rem 0;
