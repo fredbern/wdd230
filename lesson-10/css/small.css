@@ -306,8 +306,8 @@
     padding : 0;
     margin : 0 0 0.6rem 0;
     }
-    .summary h1 {
-    font-size : 1.4rem;
+    .summary h2 {
+    font-size : 1.6rem;
     color : #000000;
     }
     .summary > p {
@@ -315,7 +315,7 @@
     letter-spacing : 0.1rem;
     font-weight : 550;
     }
-    .summary h1, .summary > p {
+    .summary h2, .summary > p {
     font-family : 'Inconsolata', monospace;
     margin : 0;
     padding : 0.2rem 0;
