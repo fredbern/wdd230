@@ -494,12 +494,12 @@
     display : grid;
     grid-template-columns : 1fr 1fr;
     }
-    div.contact section:nth-child(3) {
+    div.contact div:nth-child(3) {
     grid-column : span 2;
     border : #000 solid 1px;
     padding : 0;
     }
-    div.contact section iframe {
+    div.contact div iframe {
     width : 100%;
     }
     iframe {
