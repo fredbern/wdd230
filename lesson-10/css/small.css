@@ -197,6 +197,7 @@
     }
     .headerWrapper {
     background : rgb(234, 229, 236);
+    background : linear-gradient(307deg, rgb(131, 58, 180, 1) 0%, rgb(255, 113, 91, 1) 50%, rgb(252, 176, 69, 1) 100%);
     }
     header {
     padding : 5px 0;
