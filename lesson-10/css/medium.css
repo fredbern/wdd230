@@ -126,9 +126,11 @@
     }
 
     section.forecast div h5 {
-        background-color: #d32d13;
+        background-color: #f18979;
         margin: 0;
         padding: 0.4rem 0;
+        font-size: 1.4rem;
+        font-family: 'Inconsolata', monospace;
     }
     form label.top, form div, legend {
         font-size : 1.2rem;
