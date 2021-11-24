@@ -25,7 +25,7 @@
     }
 
     main h1 {
-        margin: 1rem 0 0.6rem 0;
+        margin: 1.6% 0 0 2%;
         padding: 0;
         font-size: 1.8rem;
     }
@@ -95,7 +95,7 @@
     .forecast-h2 {
         padding: 0;
         margin: 1.6% 0 0 2%;
-        font-size: 2rem;
+        font-size: 1.8rem;
         font-family: 'Inconsolata', monospace;
         text-shadow: 1px 1px 2px rgb(0, 0, 0, 0.6);
     }
@@ -136,6 +136,9 @@
     form label.top, form div, legend {
         font-size : 1.2rem;
         }
+    section.article h2 {
+        font-size: 1.8rem;
+    }
     section.article figure {
         float: right;
         width: 50%;
@@ -221,9 +224,7 @@
     }
 
     .contact-section h2 {
-        font-size : 4rem;
-        font-family : 'Ephesis';
-        text-align: center;
+        font-size: 1.8rem;
         text-shadow : 1px 1px 2px rgb(0, 0, 0, 0.6);
     }
 
