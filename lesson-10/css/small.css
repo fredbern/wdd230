@@ -352,7 +352,7 @@
     font-family : 'Inconsolata', monospace;
     text-shadow : 1px 1px 2px rgb(0, 0, 0, 0.6);
     }
-    section.article > p {
+    section.article p {
     font-family : 'Inconsolata', monospace;
     font-size : 1.112rem;
     color : #4c5454;
