@@ -464,7 +464,7 @@
     border-left : 6px solid green;
     }
     .contact-section {
-    margin : 0 2% 10rem 2%;
+    margin : 0 2% 2rem 2%;
     padding : 0 0 2% 0;
     }
     .contact-section h2 {
@@ -585,10 +585,16 @@
     }
 /*three town ends here*/  
 .wireframe {
-    margin: .5rem 2%;
+    margin: .5rem 1% 10rem 2%;
     padding: .1rem 2%;
-    background-color: yellow;
+    background-color: rgb(233, 233, 211);
+font-size: 1.4rem; 
+    border-radius: 10px;
     text-align: center;
+    text-shadow : 1px 1px 2px rgb(0, 0, 0, 0.6);
+}
+.wireframe a {
+    color: rgb(65, 62, 62);
 }
 /*wireframe*/  
     .footerWrapper {
@@ -607,7 +613,6 @@
     padding: 1rem 4%;
     background-color: yellow;
     box-shadow: 0 2px 15px 4px rgb(14, 4, 4, 0.56);
-    
 } 
 .townMessage h2 {
     font-family : 'Ephesis';
