@@ -20,7 +20,7 @@
     }
 
     body {
-        box-shadow: 0 2px 4px rgb(0, 0, 0, 0.4), 0 7px 13px -3px rgb(0, 0, 0, 0.3), 0 -3px 0 rgb(0, 0, 0, 0.2) inset;
+        background-color: transparent;    
     }
 
     main h1 {
@@ -80,6 +80,7 @@
         padding: 0.5rem;
     }
 
+
     h4 {
         font-size: 1.2rem;
     }
@@ -132,6 +133,7 @@
         font-size: 1.4rem;
         font-family: 'Inconsolata', monospace;
     }
+
     form label.top, form div, legend {
         font-size : 1.2rem;
         }

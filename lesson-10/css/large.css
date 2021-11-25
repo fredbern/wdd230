@@ -26,12 +26,7 @@
         margin-left: 1.2rem;
     }
 
-    .mainWrapper {
-        max-width: 80rem;
-        margin: 0 auto;
-        padding: 1% 0;
-        background-color: rgb(240, 233, 233);
-    }
+
 
     /* ----------- main --------- */
     main h1 {
@@ -143,7 +138,6 @@
 
     /*three town ends here*/
     .footerWrapper {
-    width: 100%;
     background : rgb(131, 58, 180);
     background : linear-gradient(307deg, rgb(131, 58, 180, 1) 0%, rgb(255, 113, 91, 1) 50%, rgb(252, 176, 69, 1) 100%);
     padding : 1rem;
