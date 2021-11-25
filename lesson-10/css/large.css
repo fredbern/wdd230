@@ -5,8 +5,7 @@
 
     header,
     nav,
-    main,
-    footer {
+    main{
         margin: 0 auto;
         max-width: 70rem;
         padding: 0 0;
@@ -143,6 +142,17 @@
     }
 
     /*three town ends here*/
+    .footerWrapper {
+    width: 100%;
+    background : rgb(131, 58, 180);
+    background : linear-gradient(307deg, rgb(131, 58, 180, 1) 0%, rgb(255, 113, 91, 1) 50%, rgb(252, 176, 69, 1) 100%);
+    padding : 1rem;
+    }
+    footer {
+        margin: 0 auto;
+        max-width: 100%;
+        padding: 0 0;
+    }
 
 }
 

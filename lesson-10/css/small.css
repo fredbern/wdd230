@@ -464,7 +464,7 @@
     border-left : 6px solid green;
     }
     .contact-section {
-    margin : 0 2%;
+    margin : 0 2% 8rem 2%;
     padding : 0 0 2% 0;
     }
     .contact-section h2 {
@@ -592,6 +592,9 @@
 }
 /*wireframe*/  
     .footerWrapper {
+        position: fixed;
+        left: 0;
+        bottom: 0;
     background : rgb(131, 58, 180);
     background : linear-gradient(307deg, rgb(131, 58, 180, 1) 0%, rgb(255, 113, 91, 1) 50%, rgb(252, 176, 69, 1) 100%);
     padding : 1rem;
