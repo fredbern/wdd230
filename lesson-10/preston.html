@@ -75,44 +75,11 @@
                 <div class="forecast" id="forecast">
 
                 </div>
-
-
-
-
             </section>
             <Section class="townMessage">
-
+                <h2>Upcomming Events</h2>
             </Section>
-            <script>
-                const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
-                fetch(requestURL)
-                    .then(function (response) {
-                        return response.json();
-                        console.log(response);
-                    })
-                    .then(function (jsonObject) {
-                        console.table(jsonObject);
-                        const towns = jsonObject['towns'];
-                        const preston = towns[6];
-                        console.table(preston);
-                        const events = preston['events']
-                        let div = document.querySelector('.townMessage');
-                        let eventHeading = document.createElement('h2');
-                        eventHeading.innerText = "Upcomming Events";
-                        let hr = document.createElement('hr');
-                        div.appendChild(eventHeading);
-                        div.appendChild(hr);
 
-                        
-                        events.forEach((events) => {
-                            console.log(events);
-                            let eventP = document.createElement('p');
-                            eventP.textContent = `${events}`;
-                            div.appendChild(eventP);
-                        })
-
-                    });
-            </script>
             <section class="article">
                 <h2>Article</h2>
                 <figure>
@@ -184,7 +151,9 @@
             <span id="date"></span>
         </footer>
     </div>
+    
     <script src="js/fivedays.js"></script>
+    <script src="js/preston.js"></script>
     <script src="js/visited.js"></script>
     <script src="js/lazyload.js"></script>
     <script src="js/allScripts.js"></script>
