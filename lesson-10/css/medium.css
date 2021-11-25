@@ -86,32 +86,36 @@
     }
     section.forecast-section {
         display : block;
+        margin: 0 auto;
         }
     .forecast {
         position: relative;
-        margin: 0 2%;
+        margin: 2%;
+        box-shadow: 0 2px 15px 4px rgb(14, 4, 4, 0.56);
     }
 
     .forecast-h2 {
         padding: 0;
-        margin: 1.6% 0 0 2%;
+        margin: 4% 0 .5% 0;
+        text-align: center;
         font-size: 1.8rem;
         font-family: 'Inconsolata', monospace;
         text-shadow: 1px 1px 2px rgb(0, 0, 0, 0.6);
     }
 
-    section.forecast img {
-        margin-top: 0.8rem;
+    .forecast-img {
+        margin-top: 2rem;
+        width: 75px;
     }
 
     .forecast p {
         margin: 0.5rem;
         padding: 0;
         font-family: 'Italianno', cursive;
-        letter-spacing: 0.9rem;
-        font-size: 1.6rem;
-        color: #aa3a12;
-        text-shadow: 1px 1px 2px rgb(0, 0, 0, 0.6);
+        letter-spacing: 0.4rem;
+        font-size: 1.8rem;
+        color: #ff4806;
+        text-shadow : 1px 1px 2px rgb(0, 0, 0, 0.6);
         font-weight: bolder;
     }
 
@@ -123,7 +127,7 @@
     div.forecast div {
         border: rgb(92, 85, 85) solid 1px;
         text-align: center;
-        background: rgb(243, 235, 121);
+        background: rgb(253, 253, 253);
     }
 
     div.forecast div h5 {
@@ -217,6 +221,21 @@
     }
 
     /*three town ends here*/
+
+    /*town message*/
+.townMessage {
+    margin: 2rem auto;
+    width: 400px;
+    
+
+    
+}    
+.townMessage h2, .townMessage p {
+    margin: 0;
+
+
+}
+/*town message end*/   
 
     section.gallery figure {
         box-shadow: 0 22px 70px 4px rgb(14, 4, 4, 0.56);

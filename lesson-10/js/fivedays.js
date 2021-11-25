@@ -48,6 +48,7 @@ const apiURL0 = "//api.openweathermap.org/data/2.5/weather?id=5604473&APPID=2575
                   let iconcode = weatherInfo.list[i].weather[0].icon;
                   let iconPath = "//openweathermap.org/img/w/" +iconcode+ ".png";
                   let theIcon = document.createElement("img");
+                  theIcon.setAttribute('class','forecast-img');
                   theIcon.src = iconPath;
                   theIcon.innerHTML= `${theIcon.setAttribute('alt', weatherInfo.list[i].weather[0].description)}`;
   

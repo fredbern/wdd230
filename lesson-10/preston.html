@@ -28,7 +28,7 @@
                 <source media="(max-width: 768px)" srcset="images/logo_120px.png">
                 <source media="(max-width: 2400px)" srcset="images/logo_250px.png">
                 <img src="images/logo.png" alt="The world logo"
-                srcset="images/logo_75px.png 1x, images/logo_120px.png 2x, images/logo_250px.png 3x">
+                    srcset="images/logo_75px.png 1x, images/logo_120px.png 2x, images/logo_250px.png 3x">
             </picture>
             <div class="headings">
                 <h1>96th Floor Weather</h1>
@@ -69,13 +69,50 @@
                     <p id="chill"></p>
                 </section>
             </div>
-            
+
             <section class="forecast-section">
                 <h2 class="forecast-h2">Five Day Forecast</h2>
                 <div class="forecast" id="forecast">
 
                 </div>
+
+
+
+
             </section>
+            <Section class="townMessage">
+
+            </Section>
+            <script>
+                const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+                fetch(requestURL)
+                    .then(function (response) {
+                        return response.json();
+                        console.log(response);
+                    })
+                    .then(function (jsonObject) {
+                        console.table(jsonObject);
+                        const towns = jsonObject['towns'];
+                        const preston = towns[6];
+                        console.table(preston);
+                        const events = preston['events']
+                        let div = document.querySelector('.townMessage');
+                        let eventHeading = document.createElement('h2');
+                        eventHeading.innerText = "Upcomming Events";
+                        let hr = document.createElement('hr');
+                        div.appendChild(eventHeading);
+                        div.appendChild(hr);
+
+                        
+                        events.forEach((events) => {
+                            console.log(events);
+                            let eventP = document.createElement('p');
+                            eventP.textContent = `${events}`;
+                            div.appendChild(eventP);
+                        })
+
+                    });
+            </script>
             <section class="article">
                 <h2>Article</h2>
                 <figure>
@@ -152,5 +189,9 @@
     <script src="js/lazyload.js"></script>
     <script src="js/allScripts.js"></script>
     <script src="js/windchill.js"></script>
+
+
+
 </body>
+
 </html>
