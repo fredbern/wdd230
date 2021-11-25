@@ -42,6 +42,9 @@
     font-display : swap;
     src : url(https://fonts.gstatic.com/s/italianno/v11/dg4n_p3sv6gCJkwzT6Rnjw.ttf) format('truetype');
     }
+    html {
+    line-height : 1.15;
+    }
     body {
     margin : 0;
     }
@@ -190,10 +193,11 @@
     }
     body {
     background : rgb(168, 255, 234);
+    height: 100%;
     background : linear-gradient(307deg, rgb(168, 255, 234, 1) 0%, rgb(255, 255, 255) 50%, rgb(230, 230, 230) 100%);
     }
     .headerWrapper {
-    background : rgb(131, 58, 180);
+    background : rgb(234, 229, 236);
     background : linear-gradient(307deg, rgb(131, 58, 180, 1) 0%, rgb(255, 113, 91, 1) 50%, rgb(252, 176, 69, 1) 100%);
     }
     header {
@@ -210,7 +214,7 @@
     flex-direction : column;
     }
     .headings h1 {
-    font-size : 1.6rem;
+    font-size : 1.8rem;
     margin : 0 0 0 17px;
     color : #000000;
     font-family : 'Inconsolata', monospace;
@@ -303,16 +307,16 @@
     padding : 0;
     margin : 0 0 0.6rem 0;
     }
-    .summary h1 {
-    font-size : 1.4rem;
+    .summary h2 {
+    font-size : 1.112rem;
     color : #000000;
     }
     .summary > p {
-    font-size : 1.2rem;
+    font-size : 1rem;
     letter-spacing : 0.1rem;
     font-weight : 550;
     }
-    .summary h1, .summary > p {
+    .summary h2, .summary > p {
     font-family : 'Inconsolata', monospace;
     margin : 0;
     padding : 0.2rem 0;
@@ -321,23 +325,19 @@
     main h1 {
     margin : 1.4rem 0 0 0;
     padding : 0 2%;
-    font-size : 2rem;
+    font-size : 1.2rem;
     font-family : 'Inconsolata', monospace;
     color : #523f38;
     text-shadow : 1px 1px 2px rgb(0, 0, 0, 0.6);
     }
     main > div {
     display : block;
-    background-color : whitesmoke;
     }
     main > div > p {
     color : #4C5454;
     padding : 0.6rem 2%;
     }
-    .forecast-h2 {
-    display : none;
-    }
-    section.forecast {
+    section.forecast-section {
     display : none;
     }
     section.article {
@@ -348,16 +348,16 @@
     margin : 1rem 0 0 0;
     padding : 0;
     color : #523f38;
-    font-size : 2rem;
+    font-size : 1.2rem;
     font-family : 'Inconsolata', monospace;
     text-shadow : 1px 1px 2px rgb(0, 0, 0, 0.6);
     }
-    section.article > p {
+    section.article p {
     font-family : 'Inconsolata', monospace;
-    font-size : 1.4rem;
+    font-size : 1.112rem;
     color : #4c5454;
     }
-    section.article picture {
+    section.article figure {
     margin : 0;
     padding : 0 0 1.2rem 0;
     width : 100%;
@@ -449,7 +449,7 @@
     color : white;
     border-radius : 1rem;
     padding : 0.75rem 1.5rem;
-    margin : 0 0 2rem 2%;
+    margin : 0 0 10rem 2%;
     width : 96%;
     max-width : 20rem;
     }
@@ -464,14 +464,14 @@
     border-left : 6px solid green;
     }
     .contact-section {
-    margin : 0 2%;
+    margin : 0 2% 10rem 2%;
     padding : 0 0 2% 0;
     }
     .contact-section h2 {
     margin : 1rem 0 0 0;
     padding : 0;
     color : #523f38;
-    font-size : 2rem;
+    font-size : 1.2rem;
     font-family : 'Inconsolata', monospace;
     text-shadow : 1px 1px 2px rgb(0, 0, 0, 0.6);
     }
@@ -483,6 +483,7 @@
     margin : 0;
     padding : 0;
     color : #523f38;
+    font-size: 1.12rem;
     font-family : 'Inconsolata', monospace;
     text-shadow : 1px 1px 2px rgb(0, 0, 0, 0.6);
     }
@@ -494,12 +495,12 @@
     display : grid;
     grid-template-columns : 1fr 1fr;
     }
-    div.contact section:nth-child(3) {
+    div.contact div:nth-child(3) {
     grid-column : span 2;
     border : #000 solid 1px;
     padding : 0;
     }
-    div.contact section iframe {
+    div.contact div iframe {
     width : 100%;
     }
     iframe {
@@ -573,7 +574,7 @@
         padding: 0;
         font-size: 1.16rem;
         font-family : 'Ephesis';
-        font-size: 2;
+        font-size: 1.4rem;
         font-weight: bolder;
     }
     .section-img {
@@ -591,10 +592,41 @@
 }
 /*wireframe*/  
     .footerWrapper {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
     background : rgb(131, 58, 180);
     background : linear-gradient(307deg, rgb(131, 58, 180, 1) 0%, rgb(255, 113, 91, 1) 50%, rgb(252, 176, 69, 1) 100%);
     padding : 1rem;
     }
+/*town message*/
+.townMessage {
+    display: block;
+    margin:  2rem 2%;
+    padding: 1rem 4%;
+    background-color: yellow;
+    box-shadow: 0 2px 15px 4px rgb(14, 4, 4, 0.56);
+    
+} 
+.townMessage h2 {
+    font-family : 'Ephesis';
+    font-size: 2.4rem;
+    font-weight: bolder;
+    padding: 0.112rem;
+}
+.townMessage hr {
+    margin: 0 0 1rem 0;
+}
+.townMessage p {
+    font-size: 1.2rem;
+    line-height: 2rem;
+}   
+.townMessage h2, .townMessage p {
+    margin: 0;
+    text-shadow : 1px 1px 2px rgb(0, 0, 0, 0.6);
+}
+/*town message end*/    
     footer {
     padding : 2%;
     text-align : center;

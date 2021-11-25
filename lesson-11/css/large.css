@@ -1,16 +1,11 @@
 /* 64em is also 1028px when basefont is 16px */
 @media only screen and (min-width: 64rem) {
 
-    body {
-        background: rgb(131, 58, 180);
-        background: linear-gradient(307deg, rgba(131, 58, 180, 1) 0%, rgba(255, 113, 91, 1) 50%, rgba(252, 176, 69, 1) 100%);
 
-    }
 
     header,
     nav,
-    main,
-    footer {
+    main{
         margin: 0 auto;
         max-width: 70rem;
         padding: 0 0;
@@ -31,29 +26,22 @@
         margin-left: 1.2rem;
     }
 
-    .mainWrapper {
-        max-width: 80rem;
-        margin: 0 auto;
-        padding: 1%0;
-        background-color: rgb(214, 214, 214);
-        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-    }
+
 
     /* ----------- main --------- */
-
+    main h1 {
+        margin: 2rem 0 .6rem 0;
+        font-size: 2rem;
+        background-color: transparent;
+    }
 
     /*------------ forecast ---------- */
     .forecast {
         margin: 0;
     }
 
-    .forecast-h2 {
-        margin: 1.6% 0 0 0;
-    }
-
-
     /* --------------- forecast ---------- */
-    section.forecast {
+    section.forecast-section {
         padding: 0;
         width: 80%;
     }
@@ -64,7 +52,7 @@
         display: block;
     }
 
-    section.article picture {
+    section.article figure {
         width: 30%;
     }
 
@@ -100,7 +88,7 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
 
-    div.contact section:nth-child(3) {
+    div.contact div:nth-child(3) {
         grid-column: span 1;
     }
 
@@ -117,10 +105,7 @@
         padding: 0 0 0 4%;
     }
 
-    .footerWrapper {
-        background: transparent;
 
-    }
 
 
     .highlights {
@@ -139,7 +124,7 @@
 
     .section-town {
         display: block;
-        padding: none;
+        padding: 0;
     }
 
     .section-town:last-child {
@@ -147,6 +132,16 @@
     }
 
     /*three town ends here*/
+    .footerWrapper {
+    background : rgb(131, 58, 180);
+    background : linear-gradient(307deg, rgb(131, 58, 180, 1) 0%, rgb(255, 113, 91, 1) 50%, rgb(252, 176, 69, 1) 100%);
+    padding : 1rem;
+    }
+    footer {
+        margin: 0 auto;
+        max-width: 100%;
+        padding: 0 0;
+    }
 
 }
 
