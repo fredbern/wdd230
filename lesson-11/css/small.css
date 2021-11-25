@@ -344,6 +344,10 @@
     padding : 0 2%;
     display : block;
     }
+    .author {
+        padding: .5rem 0;
+        margin: 0;
+    }
     section.article h2 {
     margin : 1rem 0 0 0;
     padding : 0;
@@ -354,11 +358,11 @@
     }
     section.article p {
     font-family : 'Inconsolata', monospace;
-    font-size : 1.112rem;
+    font-size : 1.13rem;
     color : #4c5454;
     }
     section.article figure {
-    margin : 0;
+    margin : 1.5rem 0;
     padding : 0 0 1.2rem 0;
     width : 100%;
     box-shadow : 0 3px 8px rgb(0, 0, 0, 0.24);

@@ -148,15 +148,14 @@
 
     section.article p { 
         padding: 0;
-        margin: 0;
+        margin-bottom: 2rem;
         font-size: 1.4rem;
         line-height: 2rem;
         font-weight: lighter;
     }
 
-    .author{
-        text-indent: 1rem;
-        padding-bottom: 10rem;
+    .author {
+        font-size: 1.112rem;
     }
     .gallery {
         grid-template-columns: 1fr 1fr;
