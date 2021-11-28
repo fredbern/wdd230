@@ -178,6 +178,8 @@
     .highlights p{
         font-size: 2rem;
         margin: 0 3% 1rem 3%;
+        line-height: 2.2rem;
+        letter-spacing: .12rem;
     }
     .section-town-h2{
         font-size : 4rem;
