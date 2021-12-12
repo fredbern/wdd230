@@ -1,0 +1,169 @@
+@media only screen and (min-width: 35rem) {
+
+
+
+
+    /* Coolors Exported Palette - https://coolors.co/50b693-fdd068-e8476f-000000-404040-666666-f8f8f8-ffffff */
+    nav {
+        width: 300px;
+        height: 100%;
+    }
+    nav a {
+        margin-left: 35px;
+    }
+    .container {
+        max-width: 1300px;
+        margin: auto;
+    }
+
+    .hero {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 0 20px;
+    }
+
+    .one,
+    .two {
+        flex-basis: 50%;
+        min-width: 300px;
+    }
+
+    .one {
+        display: block;
+
+    }
+
+    .one img {
+        max-width: 50%;
+    }
+
+    .btn a {
+        display: inline-block;
+        background-color: #f86c35;
+        color: white;
+        padding: 8px 30px;
+        width: 175px;
+        font-size: 24px;
+        border-radius: 5px;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .main {
+        display: flex;
+        margin: 0 auto;
+        padding: 0;
+        max-width: 1300px;
+    }
+
+    .left {
+        width: 65%;
+        background-color: rgb(255, 255, 255);
+        padding: 20px;
+    }
+
+    .right {
+        width: 35%;
+        background-color: rgb(255, 255, 255);
+        padding: 20px;
+    }
+
+
+    /*left div*/
+    .advert-three-divs {
+        display: flex;
+        gap: 5px;
+    }
+
+    .advert-three-divs {
+        padding-top: 20px;
+    }
+
+    .advert-child-div {
+        padding: 20px;
+        background-color: rgb(246, 243, 243);
+        text-align: center;
+    }
+
+    .left-events {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .left-events p {
+        margin-top: 18px;
+    }
+
+    /*right div*/
+    .description,
+    .weather-info {
+        margin-top: 20px;
+    }
+
+    .weather-info {
+        background-color: rgb(231, 250, 235);
+        padding: 20px;
+    }
+
+    .weather-oneday-info,
+    .weather-oneday-img {
+        width: 50%;
+    }
+
+    .weather-oneday-info {
+        display: block;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .three-days-weather {
+        display: block;
+        margin-top: 20px;
+    }
+
+    /*footer-container here*/
+    .footer-container {
+        display: block;
+        margin: 0 auto;
+        padding: 20px;
+        max-width: 1300px;
+    }
+
+    .map-and-contact {
+        display: flex;
+        gap: 5px;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .map {
+        width: 65%;
+        padding: 20px;
+    }
+
+    .map iframe {
+        width: 100%;
+        height: 200px;
+    }
+
+    .contact {
+        width: 35%;
+        padding: 20px;
+    }
+
+    .icons {
+        width: 20px;
+    }
+
+    .footer {
+        margin: auto;
+        max-width: 1300px;
+        padding: 20px;
+    }
+
+
+
+
+}

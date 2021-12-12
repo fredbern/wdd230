@@ -21,15 +21,17 @@
             <div class="sitename">
                 <h2>PohnpeiChamber.com</h2>
             </div>
-            <nav>
+            <nav id="primaryNav">
+                <button class="close-button" id="menuBtn" onclick="toggleMenu()">X Close</button>
                 <ul>
-                    <li><a class="active" href="index.html">Home</a></li>
+                    <li class="active"><a class="active" href="index.html">Home</a></li>
                     <li><a href="city.html">City</a></li>
                     <li><a href="join.html">Join</a></li>
                     <li><a href="directory.html">Directory</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
+            <button class="open-button" id="menuBtn" onclick="toggleMenu()">&#9776;Open</button>
         </div>
         <div class="hero">
             <div class="one">
@@ -50,16 +52,16 @@
                 <h2>Company Advertisement</h2>
                 <div class="advert-three-divs">
                     <div class="advert-child-div">
-                        <h3>Company 1</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam suscipit necessitatibus, maiores voluptate ut, quos debitis voluptatem ipsum sit nulla id cum quae. Ex nulla error hic laudantium sequi tempora obcaecati quo optio voluptates. Hic nostrum suscipit itaque iure consequuntur quaerat voluptate repellendus pariatur facilis recusandae dicta ducimus, rerum, beatae inventore sint magnam nisi corrupti numquam fugit aspernatur sequi? Dolor, et ab explicabo provident fugit quas molestiae modi minima doloribus. Architecto quam aut officiis mollitia.</p>
+                        <h4>Company 1</h4>
+                        <img class="advert-images" src="images/black-sand-product1.png" alt="black-sand-product1" srcset="">
                     </div>
                     <div class="advert-child-div">
-                        <h3>Company 2</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam suscipit necessitatibus, maiores voluptate ut, quos debitis voluptatem ipsum sit nulla id cum quae. Ex nulla error hic laudantium sequi tempora obcaecati quo optio voluptates. Hic nostrum suscipit itaque iure consequuntur quaerat voluptate repellendus pariatur facilis recusandae dicta ducimus, rerum, beatae inventore sint magnam nisi corrupti numquam fugit aspernatur sequi? Dolor, et ab explicabo provident fugit quas molestiae modi minima doloribus. Architecto quam aut officiis mollitia.</p>
+                        <h4>Company 2</h4>
+                        <img class="advert-images" src="images/black-sand-product1.png" alt="black-sand-product1" srcset="">
                     </div>
                     <div class="advert-child-div">
-                        <h3>Company 3</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam suscipit necessitatibus, maiores voluptate ut, quos debitis voluptatem ipsum sit nulla id cum quae. Ex nulla error hic laudantium sequi tempora obcaecati quo optio voluptates. Hic nostrum suscipit itaque iure consequuntur quaerat voluptate repellendus pariatur facilis recusandae dicta ducimus, rerum, beatae inventore sint magnam nisi corrupti numquam fugit aspernatur sequi? Dolor, et ab explicabo provident fugit quas molestiae modi minima doloribus. Architecto quam aut officiis mollitia.</p>
+                        <h4>Company 3</h4>
+                        <img class="advert-images" src="images/black-sand-product1.png" alt="black-sand-product1" srcset="">
                     </div>
                 </div>
             </div>
@@ -80,24 +82,30 @@
             <div class="weather-info">
                 <div>
                  <h2>Weather information</h2>
-                 <div>
-                     <p>Sunday</p>
-                     <p>75degree</p>
-                     <p>no wind</p>
+                 <div class="weather-info-oneday">
+                    <img class="weather-onday-img" src="images/sunny.png" alt="sunny">
+                    <div class="weather-oneday-info">
+                        <h3>Sunday</h3>
+                        <p>75degree</p>
+                        <p>no wind</p>
+                    </div>
                  </div>
                  <div class="three-days-weather">
                      <div class="three-days-child">
-                         <h3>Monday</h3>
+                         <h3>Mon</h3>
+                         <img src="images/cloud.png" alt="cloudy">
                          <p>75degree</p>
                      <p>no wind</p>
                      </div>
                      <div class="three-days-child">
-                         <h3>Tuesday</h3>
+                         <h3>Tue</h3>
+                         <img src="images/rain.png" alt="rainny">
                          <p>75degree</p>
                      <p>no wind</p>
                      </div>
                      <div class="three-days-child">
-                         <h3>Wednesday</h3>
+                         <h3>Wed</h3>
+                         <img src="images/sunny.png" alt="sunny">
                          <p>75degree</p>
                      <p>no wind</p>
                      </div>
@@ -131,7 +139,7 @@
     <div class="footer">
         <h3>Updated: December 25, 2021 | Pohnpei Chamber of E-Commerces<br>By Berny Fred</h3>
     </div>
-    <script src="menuBtn"></script>
+    <script src="js/nav.js"></script>
 </body>
 
 </html>
