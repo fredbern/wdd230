@@ -174,30 +174,47 @@ nav a {
     margin-top: 20px;
 }
 .weather-info {
-    background-color: rgb(240, 235, 232);
-    padding: 20px;
+    padding: 0;
 }
 .weather-info-oneday {
     display: flex;
-    gap: 5px;
+    gap: 2px;
+    padding: 0;
+    margin: 0;
     align-items: center;
-    justify-content: space-around;
-}
-.weather-oneday-info, .weather-oneday-img {
-    width: 50%;
+    justify-content: space-between;
 }
 .weather-oneday-info {
     display: block;
     text-align: center;
-    padding: 20px
+    padding: 0 20px 0 0;
+    margin-left: 0;
 }
+.weather-info-oneday h3 {
+   margin: 0 0 5px 0;
+}
+.weather-info-oneday p {
+    padding: 0;
+    margin: 0;
+    line-height: 16px;
+}
+
+.weather-oneday-img {
+    width: 25%;
+    margin: auto;
+}
+.three-days-child img {
+    width: 35px;
+}
+
 .three-days-weather {
     margin-top: 20px;
-    display: flex;
+    display: block;
     gap: 5px;
 }
 
 .three-days-child {
+    margin-top: 5px;
     padding: 10px;
     text-align: center;
     width: 100%;

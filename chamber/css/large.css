@@ -48,10 +48,14 @@
     nav a:hover {
         color: rgb(46, 136, 30);
     }
-
+    .weather-info {
+        padding: 0;
+    }
     .three-days-weather {
-        margin-top: 20px;
         display: flex;
-        gap: 2px;
+        gap: 10px;
+    }
+    .three-days-child {
+        width: 200px;
     }
 }

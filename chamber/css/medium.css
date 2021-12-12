@@ -103,25 +103,11 @@
     }
 
     .weather-info {
-        background-color: rgb(231, 250, 235);
         padding: 20px;
     }
 
-    .weather-oneday-info,
-    .weather-oneday-img {
-        width: 50%;
-    }
 
-    .weather-oneday-info {
-        display: block;
-        text-align: center;
-        padding: 20px;
-    }
 
-    .three-days-weather {
-        display: block;
-        margin-top: 20px;
-    }
 
     /*footer-container here*/
     .footer-container {
