@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pohnpei Chamber of E-Commerce</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;0,700;0,800;1,200;1,400;1,500;1,600;1,700&family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
@@ -18,18 +21,36 @@
             <div class="sitename">
                 <h2>PohnpeiChamber.com</h2>
             </div>
-            <nav>
+            <nav id="primaryNav">
+                <button class="close-button" id="menuBtn" onclick="toggleMenu()">X Close</button>
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="city.html">City</a></li>
                     <li><a href="join.html">Join</a></li>
                     <li><a href="directory.html">Directory</a></li>
-                    <li><a class="active" href="contact.html">Contact</a></li>
+                    <li class="active"><a class="active" href="contact.html">Contact</a></li>
                 </ul>
             </nav>
+            <button class="open-button" id="menuBtn1" onclick="toggleMenu()">&#9776; Open</button>
+        </div>
+        <div class="hero">
+            <div class="one">
+                <img src="images/logo1.png" alt="">
+                
+                <p class="btn">
+                    <a href="">Join Now</a>
+                </p>   
+            </div>
+            <div class="two">
+                <img src="images/logoblackname.png" alt="">
+            </div>
         </div>
     </div>
-    <script src="menuBtn"></script>
+
+    <div class="footer">
+        <h3>Updated: December 25, 2021 | Pohnpei Chamber of E-Commerces<br>By Berny Fred</h3>
+    </div>
+    <script src="js/nav.js"></script>
 </body>
 
 </html>
