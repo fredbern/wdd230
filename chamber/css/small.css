@@ -229,6 +229,11 @@ nav a {
     width: 100%;
     background-color: rgb(255, 246, 246);
 }
+
+/*community images*/
+.community-images {
+    border: 1px solid red;
+}
 /*footer-container here*/
 .footer-container {
     display: block;
