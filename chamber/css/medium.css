@@ -60,6 +60,7 @@
 
     .left {
         width: 65%;
+        margin-top: 45px;
         background-color: rgb(255, 255, 255);
         padding: 20px;
     }
@@ -72,6 +73,9 @@
 
 
     /*left div*/
+    .left-advert {
+        margin-top: 20px;
+    }
     .advert-three-divs {
         display: flex;
         gap: 5px;
@@ -88,7 +92,7 @@
     }
 
     .left-events {
-        margin-top: 20px;
+        margin-top: 200px;
         text-align: center;
     }
 

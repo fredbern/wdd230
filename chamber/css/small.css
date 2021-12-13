@@ -148,12 +148,15 @@ nav a {
 
 
 /*left div*/
-.advert-three-divs {
-    display: block;
-    gap: 20px;
+.left-advert {
+    margin-top: 45px;
 }
 .advert-three-divs {
-    padding-top: 20px;
+    display: block;
+    gap: 5px;
+}
+.advert-three-divs {
+    padding-top: 0;
 }
 .advert-child-div {
     padding: 20px;
@@ -229,7 +232,7 @@ nav a {
 /*footer-container here*/
 .footer-container {
     display: block;
-    margin: 0 auto;
+    margin-top: 45px;
     padding: 20px;
     background-color: rgb(71, 71, 71);
     color: white;

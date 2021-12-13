@@ -48,7 +48,16 @@
     nav a:hover {
         color: rgb(46, 136, 30);
     }
+
+    /*left*/
+    .left-events {
+        margin-top: 60px;
+        text-align: center;
+    }
+
+    /*right*/
     .weather-info {
+        margin-top: 45px;
         padding: 0;
     }
     .three-days-weather {
@@ -58,4 +67,13 @@
     .three-days-child {
         width: 200px;
     }
+
+    .footer-container {
+        display: block;
+        margin-top: 45px;
+        padding: 20px;
+        background-color: rgb(71, 71, 71);
+        color: white;
+    
+    } 
 }
