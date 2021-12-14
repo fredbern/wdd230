@@ -22,7 +22,7 @@ h2 {
     font-size: 20px;
 }
 .navbar h2 {
-    color: white;
+    color: #000000;
 }
 
 .navbar {
@@ -58,7 +58,7 @@ nav.open {
     border-radius: 5px;
     font-size: 20px;
     text-align: right;
-    color: white;
+    color: #000000;
     background-color: transparent;
 }
 
@@ -336,7 +336,7 @@ form {
     padding : 0.5rem 2%;
     }
     form legend {
-    color :#e8476f;
+    color :#404040;
     margin : 0 1rem;
     padding : 0 0.5rem;
     }
@@ -378,7 +378,10 @@ form {
     form input.submitBtn {
     border : none;
     background : #e8476f;
-    color : white;
+    font-size: 24px;
+    font-weight: 600;
+    color : #ffffff;
+    text-shadow: 3px 3px 3px rgb(7, 7, 7);
     border-radius : 1rem;
     padding : 0.75rem 1.5rem;
     margin : 0 0 10rem 2%;
@@ -405,7 +408,7 @@ form {
     background-color: #50b693;
 }
 .footer h3 {
-    color: white;
+    color: #000000;
     text-align: center;
 }
 
