@@ -1,0 +1,48 @@
+{
+    "business": [
+        
+        {
+            "name": "Black Sand",
+            "Phone": "320-####",
+            "location": "Oposite Genesis"
+        },
+
+        {
+            "name": "Blue Nile",
+            "Phone": "320-####",
+            "location": "Blue Nile"
+        },
+
+        {
+            "name": "Ace Commercial",
+            "Phone": "320-####",
+            "location": "Ace Commercial"
+        },
+
+        {
+            "name": "Ace Hardware",
+            "Phone": "320-####",
+            "location": "Ace Hardware"
+        },
+
+        {
+            "name": "Serving Club",
+            "Phone": "320-####",
+            "location": "Mangrove Bay"
+        },
+
+        {
+            "name": "Saimon Market",
+            "Phone": "320-####",
+            "location": "Black Sand"
+        },
+
+        {
+            "name": "Namiky Store",
+            "Phone": "320-####",
+            "location": "Namiky"
+        }
+
+    ]
+
+}
