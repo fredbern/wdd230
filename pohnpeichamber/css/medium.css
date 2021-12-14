@@ -1,4 +1,4 @@
-@media only screen and (min-width: 35rem) {
+@media only screen and (min-width: 34rem) {
 
 
     h1 {
@@ -34,7 +34,7 @@
         color: white;
     }
     nav a {
-        margin-left: 35px;
+        margin-left: 20px;
     }
     .container {
         max-width: 1300px;
@@ -224,7 +224,44 @@
         display: block;
         width: 100%;
     }
-    
+    /*==========plan============*/
+    .all-join {
+        display: flex;
+
+    }
+    .plan-container, .main-join {
+       width: 50%;
+   }
+   .plan-container {
+       grid-template-columns: 1fr;
+       column-gap: 10px;
+       margin: 0 auto;
+       padding: 20px;
+   }
+
+    .plan-outer {
+        margin: 20px 0;
+        padding: 5px;
+        border: gray 1px solid;
+        background-color:black;
+        border-radius: 0 30px;
+    }
+    .plan {
+        height: auto;
+        padding: 20px;
+        background-color: white;
+        border-radius: 0 30px;
+    }
+    .plan-outer h3 {
+        padding: 5px;
+        border-radius: 5px;
+        text-align: center;
+        color: white;
+    }
+    .plan p {
+        text-align: left;
+    }
+
 
     /*==========================footer-container here==========================*/
     .footer-container {

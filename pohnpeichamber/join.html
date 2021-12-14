@@ -35,56 +35,86 @@
             </nav>
             <button class="open-button" id="menuBtn1" onclick="toggleMenu()">&#9776; Open</button>
         </div>
-        <div class="main-join">
-            <div class="form">
-                <form action="thanks.html" method="get">
-                    <fieldset>
-                        <legend>Sign Up Information</legend>
-                        <label class="top">First Name* <input type="text" name="fname" placeholder="First Name*"
-                                required></label>
-                        <label class="top">Last Name* <input type="text" name="lname" placeholder="Last Name*"
-                                required></label>
-                        <label class="top">Title <input type="text" name="title" placeholder="Title*"></label>
-                        <label class="top">Email* <input type="email" name="email"
-                                placeholder="email@email.com"></label>
-                        <label class="top">Cell Phone <input type="tel" name="phone" placeholder="233-320-2030"
-                                required></label>
-                        <label class="top">Business Name* <input type="text" name="bname" placeholder="Business Name*"
-                                required></label>
-                        <label class="top">Business Address<input type="text" name="baddress"
-                                placeholder="Business Address*" required></label>
-                        <label class="top">Business Website<input type="text" name="bwebsite"
-                                placeholder="Business Website*"></label>
-                        <label class="top">
-                            Business Description
-                            <textarea name="businessDescription" cols="30" rows="5"></textarea>
-                        </label>
-                        <label class="top">
-                            Select Plan
-                            <select name="region" id="region">
-                                <option value="">Select</option>
-                                <option value="100">Non-profit ($100)</option>
-                                <option value="200">Bronze ($200)</option>
-                                <option value="400">Silver ($400)</option>
-                                <option value="1000">Gold ($1000)</option>
-                            </select>
-                        </label>
-                    </fieldset>
-                    <input type="submit" value="Send your comments" class="submitBtn">
-                </form>
-            </div>
+        <div class="all-join">
             <div class="plan-container">
-                <div class="plan">
+                <h2>Membership plans</h2>
+                <div class="plan-outer">
                     <h3>Non-profit</h3>
+                    <div class="plan">
+
+                        <p>Sign Up</p>
+                        <p>Directory Listing</p>
+                    </div>
                 </div>
-                <div class="plan">
+                <div class="plan-outer">
                     <h3>Bronze</h3>
+                    <div class="plan">
+
+                        <p>Sign Up</p>
+                        <p>Directory Listing</p>
+                        <p>business trainings</p>
+                    </div>
                 </div>
-                <div class="plan">
+                <div class="plan-outer">
                     <h3>Silver</h3>
+                    <div class="plan">
+
+                        <p>Sign Up</p>
+                        <p>Directory Listing</p>
+                        <p>business trainings</p>
+                        <p>social media posts</p>
+                    </div>
                 </div>
-                <div class="plan">
+                <div class="plan-outer">
                     <h3>Gold</h3>
+                    <div class="plan">
+                        <p>Sign Up</p>
+                        <p>Directory Listing</p>
+                        <p>business trainings</p>
+                        <p>social media posts</p>
+                        <p>luncheon tickets</p>
+                        <p>sponsorships with levels of advertising</p>
+                    </div>
+                </div>
+            </div>
+            <div class="main-join">
+                <h2>Membership Sign Up</h2>
+                <div class="form">
+                    <form action="thanks.html" method="get">
+                        <fieldset>
+                            <legend>Sign Up Information</legend>
+                            <label class="top">First Name* <input type="text" name="fname" placeholder="First Name*"
+                                    required></label>
+                            <label class="top">Last Name* <input type="text" name="lname" placeholder="Last Name*"
+                                    required></label>
+                            <label class="top">Title <input type="text" name="title" placeholder="Title*"></label>
+                            <label class="top">Email* <input type="email" name="email"
+                                    placeholder="email@email.com"></label>
+                            <label class="top">Cell Phone <input type="tel" name="phone" placeholder="233-320-2030"
+                                    required></label>
+                            <label class="top">Business Name* <input type="text" name="bname"
+                                    placeholder="Business Name*" required></label>
+                            <label class="top">Business Address<input type="text" name="baddress"
+                                    placeholder="Business Address*" required></label>
+                            <label class="top">Business Website<input type="text" name="bwebsite"
+                                    placeholder="Business Website*"></label>
+                            <label class="top">
+                                Business Description
+                                <textarea name="businessDescription" cols="30" rows="5"></textarea>
+                            </label>
+                            <label class="top">
+                                Select Plan
+                                <select name="region" id="region">
+                                    <option value="">Select</option>
+                                    <option value="100">Non-profit ($100)</option>
+                                    <option value="200">Bronze ($200)</option>
+                                    <option value="400">Silver ($400)</option>
+                                    <option value="1000">Gold ($1000)</option>
+                                </select>
+                            </label>
+                        </fieldset>
+                        <input type="submit" value="Send your comments" class="submitBtn">
+                    </form>
                 </div>
             </div>
         </div>
@@ -92,7 +122,7 @@
     </div>
     <div class="footer">
         <h3>Updated: December 25, 2021 | Pohnpei Chamber of E-Commerces<br>By Berny Fred</h3>
-        
+
     </div>
     <script src="js/nav.js"></script>
 </body>
