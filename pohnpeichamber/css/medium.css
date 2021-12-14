@@ -1,12 +1,37 @@
 @media only screen and (min-width: 35rem) {
 
 
+    h1 {
+        font-size: 35px;
+        font-weight: 700;
+    }
+    
+    h2 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+    
+    h3 {
+        font-size: 24px;
+        font-weight: 500;
+    }
+    
+    h4 {
+        font-size: 20px;
+        font-weight: 500;
+    }
 
+    p {
+        font-weight: 400;
+    }
 
     /* Coolors Exported Palette - https://coolors.co/50b693-fdd068-e8476f-000000-404040-666666-f8f8f8-ffffff */
     nav {
         width: 300px;
         height: 100%;
+    }
+    .navbar h2 {
+        color: white;
     }
     nav a {
         margin-left: 35px;
@@ -139,12 +164,22 @@
         text-align: center;
         border: 1px solid gray;
     }
-    
-    
-    .card-list p {
-        padding-top: 0;
+    .flex.h3 {
+        padding: 0;
+    }
+    .flex.directory-p {
+        padding: 0;
+        line-height: 30px;
     }
     
+    
+    .h3 {
+        padding-left: 15px;
+    }
+    .directory-p {
+        padding-left: 20px;
+        line-height: 30px;
+    }
     
     #button button:nth-child(1) {
         pointer-events: none;
