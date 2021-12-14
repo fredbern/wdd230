@@ -23,8 +23,8 @@ fetch(requestURL)
             location.setAttribute('class','directory-p');
 
             name.textContent = array[index].name;
-            telephone.textContent = array[index].Phone;
-            location.textContent = array[index].location;
+            telephone.textContent = `Phone: ${array[index].Phone}`;
+            location.textContent = `Location: ${array[index].location}`;
 
 
             olItem.appendChild(card);
@@ -36,4 +36,29 @@ fetch(requestURL)
         }); //end of the forEach
 
 });
+
+
+function toggle() {
+    //console.log(document.getElementById("primaryNav").classList("open"));
+    console.log('It Worked!');
+    document.getElementById("mylist").classList.toggle("flex");
+    document.getElementById("list").classList.toggle("change");
+    document.getElementById("grid").classList.toggle("change");
+  }
+
+function listMenu() {
+    //console.log(document.getElementById("primaryNav").classList("open"));
+    console.log('It Worked!');
+    document.getElementById("mylist").classList.toggle("flex");
+    document.getElementById("list").classList.toggle("change");
+    document.getElementById("grid").classList.toggle("change");
+  }
+const y = document.getElementById('grid');
+
+y.onclick = toggle;
+y.onclick = listMenu;
+
+
+
+
  

@@ -110,10 +110,88 @@
         padding: 20px;
     }
 
+/*==========================main-directory===================*/
+.main-directory {
+    position: relative;
+    margin: 0 auto;
+    padding: 20px;
+}
+#mylist li {
+    margin-left: 20px;
+    text-align: left;
+    list-style-type: upper-roman;
+    border: none;
+    max-width: 250px;
+    
+}
+    #mylist.flex {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 0;
+        width: 100%;
+        list-style-type: none;
+        gap: 10px;
+    }
+    #mylist.flex li {
+        margin: 0;
+        width: 100%;
+        list-style-type: none;
+        text-align: center;
+        border: 1px solid gray;
+    }
+    
+    
+    .card-list p {
+        padding-top: 0;
+    }
+    
+    
+    #button button:nth-child(1) {
+        pointer-events: none;
+    }
+    
+    #button button:nth-child(2) {
+        pointer-events: auto;
+    }
+    
+    #button button:nth-child(1).change {
+        pointer-events: auto;
+    }
+    
+    #button button:nth-child(2).change {
+        pointer-events: none;
+    }
+    #button button {
+        display: block;
+        margin: 0;
+        padding: 5px;
+        background-color: #50b693;
+        box-shadow : 0 -23px 25px 0 rgba(116, 27, 27, 0) inset, 0 -36px 30px 0 rgba(246, 243, 243, 0.15) inset, 0 -79px 40px 0 rgb(0, 0, 0, 0.1) inset, 0 2px 1px rgba(179, 15, 15, 0.06), 0 4px 2px rgb(0, 0, 0, 0.09), 0 8px 4px rgb(0, 0, 0, 0.09), 0 16px 8px rgb(0, 0, 0, 0.09), 0 32px 16px rgb(0, 0, 0, 0.09);
+    
+    }
+    #button {
+        display: flex;
+        margin: 0;
+        padding: 20px 0;
+        gap: 10px;
+    }
+    
+    #list,
+    #grid {
+        width: 50px;
+        border-radius: 10px;
+        border:none;
+        padding: 8px 12px;
+        
+    }
+    
+    #button img {
+        display: block;
+        width: 100%;
+    }
+    
 
-
-
-    /*footer-container here*/
+    /*==========================footer-container here==========================*/
     .footer-container {
         display: block;
         margin: 0 auto;

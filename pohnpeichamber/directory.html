@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
+
+    <script src="js/directory.js"></script>
 </head>
 
 <body>
@@ -33,24 +35,26 @@
             </nav>
             <button class="open-button" id="menuBtn1" onclick="toggleMenu()">&#9776; Open</button>
         </div>
-        <div class="hero">
-            <div class="one">
-                <img src="images/logo1.png" alt="">
-                
-                <p class="btn">
-                    <a href="">Join Now</a>
-                </p>   
-            </div>
-            <div class="two">
-                <img src="images/logoblackname.png" alt="">
-            </div>
+    </div>
+    <div class="main-directory">
+        <div id="button">
+            <button id="list" onclick="listMenu()"><img src="images/list.png" alt="list button">
+            </button>
+            <button id="grid" onclick="toggle()"><img src="images/grid.png" alt="grid"></button>
+        </div>
+        <div class="directory">
+
+            <ol id="mylist">
+
+            </ol>
+
         </div>
     </div>
-
     <div class="footer">
         <h3>Updated: December 25, 2021 | Pohnpei Chamber of E-Commerces<br>By Berny Fred</h3>
     </div>
     <script src="js/nav.js"></script>
+
 </body>
 
 </html>

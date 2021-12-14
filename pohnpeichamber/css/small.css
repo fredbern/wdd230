@@ -40,6 +40,7 @@ nav {
     height: 100%;
     border-bottom-left-radius: 5px;
     position: fixed;
+    z-index: 1;
     opacity: .93;
 }
 nav.open {
@@ -275,6 +276,52 @@ nav a {
 .icons {
     width: 45px;
 }
+/*==============================directory============================*/
+.main-directory {
+    position: relative;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid gray;
+}
+
+#mylist li {
+    margin: auto;
+    margin-top: 20px;
+    border: none;
+    padding: 0 0 10px 0;
+    border: gray solid 1px;
+    list-style-type: none;
+    width: 100%;
+    text-align: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.h3 {
+    background-color: #50b693;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.directory-p {
+    line-height: 30px;
+}
+.card-list {
+    margin-top: 0;
+    padding-top: 0;
+    width: 100%;
+    background-color: white;
+}
+
+
+#list,
+#grid {
+    display: none;
+}
+
+#button img {
+    display: block;
+    width: 100%;
+}
+
+/*==============================footer===============================*/
 .footer{
     margin:auto;
     max-width: 1300px;
