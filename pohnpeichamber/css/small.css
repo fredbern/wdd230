@@ -175,11 +175,11 @@ nav a {
 .advert-three-divs {
     display: block;
     gap: 5px;
+    
 }
-.advert-three-divs {
-    padding-top: 0;
-}
+
 .advert-child-div {
+    margin: 10px 0;
     padding: 20px;
     text-align: center;
     background-color: #f8f8f8;
