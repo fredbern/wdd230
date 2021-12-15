@@ -109,6 +109,7 @@ nav a {
     display: block;
     align-items: center;
     padding: 0 20px;
+    background-color: #f8f8f8;
 }
 
 .one {
@@ -181,6 +182,8 @@ nav a {
 .advert-child-div {
     padding: 20px;
     text-align: center;
+    background-color: #f8f8f8;
+    border: #666666 solid 1px;
 }
 .advert-images {
     margin-top: 20px;
@@ -199,6 +202,12 @@ nav a {
 }
 
     /*========community images==========*/
+    /*community images*/
+.community-images {
+    margin: auto;
+    text-align: center;
+    max-width: 1300px;
+}
     .community-div-container {
         padding: 0;
         display: grid;
@@ -209,7 +218,8 @@ nav a {
     .community-img-div {
         margin: 10px 0;
         padding: 0;
-        background-color: lightblue;
+        background-color: #f8f8f8;
+        border: #666666 solid 1px;
     }
     .community-img-div img {
         display: block;
@@ -222,7 +232,7 @@ nav a {
     }
     .community-img-div p {
         margin: 0;
-        padding: 0 0 10px 0;
+        padding: 10px;
     }
 
 
@@ -252,10 +262,16 @@ nav a {
     margin-top: 20px;
     align-items: center;
     justify-content: space-between;
+    background-color: #f8f8f8;
+    border: #666666 solid 1px;
+}
+.three-days-child:nth-child(4), .three-days-child:nth-child(5)
+{
+    display: none;
 }
 .weather-oneday-info {
     display: block;
-    text-align: center;
+    text-align: left;
     padding: 0 20px 0 0;
     margin: auto;
 }
@@ -284,14 +300,11 @@ nav a {
     padding: 10px;
     text-align: center;
     width: 100%;
-    background-color: rgb(255, 246, 246);
+    background-color: #f8f8f8;
+    border: #666666 solid 1px;
 }
 
-/*community images*/
-.community-images {
-    margin: 20px 10px;
-    text-align: center;
-}
+
 /*footer-container here*/
 .footer-container {
     display: block;
@@ -439,7 +452,7 @@ form {
     }
     form input.submitBtn {
     border : none;
-    background : #e8476f;
+    background-color: #f86c35;
     font-size: 24px;
     font-weight: 600;
     color : #ffffff;
@@ -451,7 +464,7 @@ form {
     max-width : 20rem;
     }
     input.submitBtn:hover {
-        background-color: #50b693;
+        background-color: #000000;
 
     }
     form label.top input:required {
@@ -501,16 +514,20 @@ form {
     width: 98%;
     padding: 12px;
     border-radius: 10px;
-    background-color: rgb(134, 235, 134);
+    background-color: #f86c35;
     font-size: 18px;
     font-weight: 700;
-    color: rgb(39, 39, 41);
+    color: white;
+}
+.main-thanks button:hover {
+    background-color: #000000;
 }
 /*===============================board================================*/
 .board-hero{
     display: block;
     align-items: center;
     padding: 0 20px;
+    background-color: #f8f8f8;
 }
 .board h4 {
     margin-top: 20px;
