@@ -136,7 +136,7 @@ nav a {
 
 }
 .btn{
-    padding: 10px;
+    padding : 0.75rem 1.5rem;
     background-color: #f86c35;
     border-radius: 10px;
     text-align: center;
@@ -147,6 +147,7 @@ nav a {
 }
 .btn:hover {
     background-color: #000000;
+    color: white;
 }
 
 
@@ -456,9 +457,8 @@ form {
     border : none;
     background-color: #f86c35;
     font-size: 24px;
-    font-weight: 600;
-    color : #ffffff;
-    text-shadow: 3px 3px 3px rgb(7, 7, 7);
+    font-weight: 700;
+    color : #000000;
     border-radius : 1rem;
     border: 2px solid rgb(51, 47, 47);
     padding : 0.75rem 1.5rem;
@@ -468,6 +468,7 @@ form {
     }
     input.submitBtn:hover {
         background-color: #000000;
+        color: #FFFFFF;
 
     }
     form label.top input:required {
@@ -532,10 +533,11 @@ form {
     background-color: #f86c35;
     font-size: 18px;
     font-weight: 700;
-    color: white;
+    color: #000000;
 }
 .main-thanks button:hover {
     background-color: #000000;
+    color: #FFFFFF;
 }
 /*===============================board================================*/
 .board-hero{
@@ -547,21 +549,7 @@ form {
 .board h4 {
     margin-top: 20px;
 }
-.contact-btn{
-    margin-top: 20px;
-    padding: 10px;
-    background-color: #e8476f;
-    border-radius: 10px;
-    text-align: center;
-    max-width: 300px;
-}
-.contact-btn a {
-    text-decoration: none;
-    text-shadow: 3px 3px 3px rgb(7, 7, 7);
-    font-size: 24px;
-    font-weight: 700;
-    color: white;
-}
+
 .contact-two {
     margin-top: 40px;
     flex-basis: 30%;

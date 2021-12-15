@@ -77,20 +77,6 @@
         text-align: left;
     
     }
-    .btn{
-        padding: 10px;
-        background-color: #f86c35;
-        border-radius: 10px;
-        text-align: center;
-        font-size: 24px;
-        font-weight: 700;
-        min-width: 260px;
-        color: white;
-    }
-    .btn:hover {
-        background-color: #000000;
-    }
-    
     
 
     .main {
