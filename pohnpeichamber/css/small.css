@@ -116,6 +116,7 @@ nav a {
 }
 .one h3, .one p {
     margin-top: 20px;
+    text-align: center;
 }
 .one img {
     width: 100%;
@@ -125,19 +126,28 @@ nav a {
 .two img {
     width: 100%;
 }
+.gobutton {
+    margin: auto;
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+    text-align: center;
+
+}
 .btn{
-    margin-top: 0;
     padding: 10px;
     background-color: #f86c35;
     border-radius: 10px;
     text-align: center;
-    max-width: 300px;
-}
-.btn a {
-    text-decoration: none;
     font-size: 24px;
     font-weight: 700;
+    min-width: 260px;
+    color: white;
 }
+.btn:hover {
+    background-color: #000000;
+}
+
 
 .main {
     display: block;

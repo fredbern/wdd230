@@ -64,20 +64,34 @@
     }
 
     .one img {
+        margin: auto;
         max-width: 75%;
     }
 
-    .btn a {
-        display: inline-block;
-        background-color: #f86c35;
-        color: white;
-        padding: 8px 30px;
-        width: 175px;
-        font-size: 24px;
-        border-radius: 5px;
-        text-align: center;
-        text-decoration: none;
+    .one h3, .one p {
+        margin-top: 20px;
+        text-align: left;
     }
+
+    .gobutton {
+        text-align: left;
+    
+    }
+    .btn{
+        padding: 10px;
+        background-color: #f86c35;
+        border-radius: 10px;
+        text-align: center;
+        font-size: 24px;
+        font-weight: 700;
+        min-width: 260px;
+        color: white;
+    }
+    .btn:hover {
+        background-color: #000000;
+    }
+    
+    
 
     .main {
         display: flex;
