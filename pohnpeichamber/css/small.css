@@ -502,6 +502,18 @@ form {
     .plan p {
         text-align: left;
     }
+
+/*==========city==============*/
+
+.city {
+    background-color: #cccccc;
+    background-image: url("/pohnpeichamber/images/citybanner.jpg");
+    height: 100%;
+    background-size: cover;
+  }
+
+
+
 /*thank you page*/
 .main-thanks {
     padding: 20px;
