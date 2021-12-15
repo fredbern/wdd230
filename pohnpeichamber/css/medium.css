@@ -159,7 +159,9 @@
     .weather-info {
         padding: 20px;
     }
-
+    .weather-info-oneday {
+        grid-template-columns: 1fr;
+    }
     /*==========================main-directory===================*/
     .main-directory {
         position: relative;

@@ -59,9 +59,14 @@
     }
 
     /*right*/
+
     .weather-info {
         margin-top: 45px;
         padding: 0;
+    }
+
+    .weather-info-oneday {
+        grid-template-columns: 1fr 2fr;
     }
     .three-days-weather {
         display: flex;

@@ -255,16 +255,16 @@ nav a {
     
 }
 .weather-info-oneday {
-    display: flex;
-    gap: 2px;
-    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+    padding: 10px;
     margin: 0;
     margin-top: 20px;
-    align-items: center;
-    justify-content: space-between;
     background-color: #f8f8f8;
     border: #666666 solid 1px;
 }
+
 .three-days-child:nth-child(4), .three-days-child:nth-child(5)
 {
     display: none;
@@ -281,8 +281,10 @@ nav a {
 
 
 .weather-oneday-img {
-    width: 25%;
-    padding-left: 0;
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    background-color: darkgray;
     margin: 0 45px 0 0;
 }
 .three-days-child img {
