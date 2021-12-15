@@ -50,6 +50,9 @@
     }
 
     /*left*/
+    .advert-three-divs {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
     .left-events {
         margin-top: 60px;
         text-align: center;
@@ -76,6 +79,10 @@
         color: white;
     
     } 
-
+    /*========community images==========*/
+    .community-div-container {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 20px;
+    }
      
 }

@@ -197,6 +197,36 @@ nav a {
 .left-events p {
     margin-top: 1px;
 }
+
+    /*========community images==========*/
+    .community-div-container {
+        padding: 0;
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+
+    }
+    .community-img-div {
+        margin: 10px 0;
+        padding: 0;
+        background-color: lightblue;
+    }
+    .community-img-div img {
+        display: block;
+        width: 100%;
+    }
+
+    .community-img-div h3 {
+        margin: 10px 0 0 0;
+        padding: 0;
+    }
+    .community-img-div p {
+        margin: 0;
+        padding: 0 0 10px 0;
+    }
+
+
+
 /*right div*/
 .description, .weather-info {
     margin-top: 100px;
@@ -259,7 +289,8 @@ nav a {
 
 /*community images*/
 .community-images {
-    border: 1px solid red;
+    margin: 20px 10px;
+    text-align: center;
 }
 /*footer-container here*/
 .footer-container {

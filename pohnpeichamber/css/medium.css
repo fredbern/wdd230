@@ -120,8 +120,9 @@
     }
 
     .advert-three-divs {
-        display: flex;
-        gap: 5px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
     }
 
     .advert-three-divs {
@@ -143,6 +144,12 @@
         margin-top: 18px;
     }
 
+
+    /*========community images==========*/
+    .community-div-container {
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+    }
     /*right div*/
     .description,
     .weather-info {
