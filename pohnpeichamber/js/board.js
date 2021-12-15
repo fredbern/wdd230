@@ -1,4 +1,4 @@
-const requestURL = "js/directory.json";
+const requestURL = "js/board.json";
 fetch(requestURL)
     .then(function (response) {
         return response.json();
@@ -6,31 +6,26 @@ fetch(requestURL)
 
     .then(function (jsonObject) {
         console.table(jsonObject); // temporary checking for valid response and data parsing
-        const business = jsonObject['business'];
-        business.forEach((business, index, array) => { //forEach is replacing the for loop
+        const business = jsonObject['board'];
+        business.forEach((board, index, array) => { //forEach is replacing the for loop
 
         //for (let i = 0; i < prophets.length; i++) {
-            let olItem = document.createElement('li');
-            olItem.setAttribute('class','li');
+            let boardList = document.createElement('li');
+            boardList.setAttribute('class','board-li-item');
             let card = document.createElement('div');
-            card.setAttribute('class','card-list');
-            let name = document.createElement('h3');
-            name.setAttribute('class','h3');
-            let telephone = document.createElement('p');
-            telephone.setAttribute('class','directory-p');
-            let location = document.createElement('p');
-            location.setAttribute('class','directory-p');
+            card.setAttribute('class','board-li-div');
+            let name = document.createElement('h4');
+            name.setAttribute('class','board-li-h2');
+            let title = document.createElement('p');
+            title.setAttribute('class','board-p');
 
             name.textContent = array[index].name;
-            telephone.textContent = `Phone: ${array[index].Phone}`;
-            location.textContent = `Location: ${array[index].location}`;
+            title.textContent = array[index].title;
 
-
-            olItem.appendChild(card);
+            boardList.appendChild(card);
             card.appendChild(name);
-            card.appendChild(telephone);
-            card.appendChild(location);
-            document.querySelector('#mylist').appendChild(olItem);
+            card.appendChild(title);
+            document.querySelector('#board-chart').appendChild(boardList);
         //} //end of the for loop
         }); //end of the forEach
 
