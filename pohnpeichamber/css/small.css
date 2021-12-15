@@ -509,7 +509,7 @@ form {
 
 .city {
     background-color: #cccccc;
-    background-image: url("/pohnpeichamber/images/citybanner.jpg");
+    background-image: url("images/citybanner.jpg");
     height: 100%;
     background-size: cover;
   }
