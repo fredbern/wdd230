@@ -1,4 +1,4 @@
-const requestURL = '.json';
+const requestURL = 'js/events.json';
 fetch(requestURL)
     .then(function (response) {
         return response.json();
@@ -6,20 +6,22 @@ fetch(requestURL)
     })
     .then(function (jsonObject) {
         console.table(jsonObject);
-        const towns = jsonObject['towns'];
-        const fish = towns[2];
-        console.table(fish);
-        const events = fish['events']
-        let div = document.querySelector('.townMessage');
-        let hr = document.createElement('hr');
-        div.appendChild(hr);
+        const events = jsonObject['events'];
+        console.table(events);
+        let div = document.querySelector('.left-events');
 
         
         events.forEach((events) => {
             console.log(events);
-            let eventP = document.createElement('p');
-            eventP.textContent = `${events}`;
-            div.appendChild(eventP);
+            let event = document.createElement('h4');
+            let date = document.createElement('p');
+            let location = document.createElement('p');
+            event.textContent = `${events.event}`;
+            date.textContent = `Date: ${events.date}`;
+            location.textContent = `Location: ${events.location}`;
+            div.appendChild(event);
+            div.appendChild(date);
+            div.appendChild(location);
         })
 
     });

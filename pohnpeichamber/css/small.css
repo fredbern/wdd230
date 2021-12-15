@@ -177,11 +177,15 @@ nav a {
     width: 100%;
 }
 .left-events {
-    margin-top: 100px;
+    margin: 80px 20px;
     text-align: center;
+
+}
+.left-events h4 {
+    padding-top: 25px;
 }
 .left-events p {
-    margin-top: 18px;
+    margin-top: 1px;
 }
 /*right div*/
 .description, .weather-info {
@@ -189,8 +193,11 @@ nav a {
     text-align: center;
 }
 .description p{
-    line-height: 45px;
-    margin-top: 20px;
+    line-height: 30px;
+    padding-bottom: 10px;
+}
+.description h4{
+    padding-top: 20px;
 }
 .weather-info {
     padding: 0;
