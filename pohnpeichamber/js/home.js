@@ -29,13 +29,13 @@ const weatherday = new Date();
 const todayDayNumber = weatherday.getDay();
 
 const weekday = new Array(7);
-weekday[0] = "Sunday";
-weekday[1] = "Monday";
-weekday[2] = "Tuesday";
-weekday[3] = "Wedmesday";
-weekday[4] = "Thursday";
-weekday[5] = "Friday";
-weekday[6] = "Saturday";
+weekday[0] = "Sun";
+weekday[1] = "Mon";
+weekday[2] = "Tue";
+weekday[3] = "Wed";
+weekday[4] = "Thu";
+weekday[5] = "Fri";
+weekday[6] = "Sat";
 
 
 const apiURL1 = "//api.openweathermap.org/data/2.5/forecast?lat=6.963148&&lon=158.208125&appid=2575ea045602d11c8df33df377028fad";
