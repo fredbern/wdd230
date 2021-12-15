@@ -250,6 +250,9 @@ nav a {
 .description h4{
     padding-top: 20px;
 }
+.description h3{
+    padding-top: 20px;
+}
 .weather-info {
     padding: 0;
     text-align: center;
