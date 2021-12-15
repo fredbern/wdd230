@@ -28,14 +28,14 @@ h2 {
 .navbar {
     display: flex;
     padding: 20px;
-    background-color: #50b693;
+    background-color: #000000;
     align-items: center;
     justify-content: space-between;
 }
 
 nav {
     display: none;
-    background-color: #50b693;
+    background-color: #0000000;
     top: 0;
     right: 0;
     width: 200px;
