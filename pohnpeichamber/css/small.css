@@ -460,6 +460,7 @@ form {
     color : #ffffff;
     text-shadow: 3px 3px 3px rgb(7, 7, 7);
     border-radius : 1rem;
+    border: 2px solid rgb(51, 47, 47);
     padding : 0.75rem 1.5rem;
     margin : 4rem 0 3rem 2%;
     width : 96%;
