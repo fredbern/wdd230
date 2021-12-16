@@ -84,6 +84,13 @@
         color: white;
     
     } 
+    /*=========directory================*/
+
+    #mylist.flex {
+
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    }
     /*========community images==========*/
     .community-div-container {
         grid-template-columns: 1fr 1fr 1fr 1fr;
