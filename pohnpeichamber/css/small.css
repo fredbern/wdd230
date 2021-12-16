@@ -182,7 +182,7 @@ nav a {
 
 /*left div*/
 .left-advert {
-    margin-top: 45px;
+    margin: 45px 20px;
 }
 .left-advert hr {
     margin: 0;
@@ -195,14 +195,18 @@ nav a {
 }
 
 .advert-child-div {
-    margin: 0;
-    padding: 0 20px;
+    margin: 40px 0;
+    padding: 0 0 20px 0;
     text-align: center;
     background-color: #f8f8f8;
-    border: #666666 solid 1px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.advert-child-div p {
+    padding: 18px;
 }
 .advert-images {
-    margin-top: 20px;
+    margin:0 0 20px 0;
     width: 100%;
 }
 .left-events {
@@ -221,8 +225,11 @@ nav a {
     /*community images*/
 .community-images {
     margin: auto;
+    margin: 45px 0 45px 0;
+    padding: 20px;
     text-align: center;
     max-width: 1300px;
+
 }
 .community-images h2 {
     margin: 10px;
@@ -242,7 +249,7 @@ nav a {
         margin: 10px 0;
         padding: 0;
         background-color: #f8f8f8;
-        border: #666666 solid 1px;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;  
     }
     .community-img-div img {
         display: block;
@@ -263,7 +270,7 @@ nav a {
 
 /*right div*/
 .description, .weather-info {
-    margin-top: px;
+    margin-top: 40px;
     text-align: center;
 }
 .description p{
@@ -319,13 +326,16 @@ nav a {
 }
 
 .three-days-weather {
-    margin-top: 20px;
+    margin-top: 40px;
     display: block;
     gap: 5px;
 }
 
 .three-days-child {
-    margin-top: 5px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 2fr 1fr;
+    margin-top: 20px;
     padding: 10px;
     text-align: center;
     width: 100%;
