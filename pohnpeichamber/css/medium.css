@@ -102,7 +102,7 @@
 
     /*left div*/
     .left-advert {
-        margin-top: 20px;
+        margin-top: 0;
     }
 
     .advert-three-divs {
@@ -123,7 +123,7 @@
 
     .left-events {
         margin-top: 200px;
-        text-align: center;
+        text-align: left;
     }
 
     .left-events p {
