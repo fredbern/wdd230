@@ -552,7 +552,12 @@ form {
     background-size: cover;
   }
 
-
+.city-demo {
+    padding: 20px;
+}
+.city-demo h2 {
+    text-align: center;
+}
 
 /*thank you page*/
 .main-thanks {
