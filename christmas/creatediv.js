@@ -14,14 +14,7 @@ const ten = boxshadow[9];
 
 const rainbow = ['white', 'red', 'orange', 'yellow', 'green', 'blue', 'rebeccapurple', 'violet'];
 
-function myFunction(x) {
-var x = document.getElementById("input").value;
-return x;
-}  
-a = myFunction(x);
-const ham = 12;
-const div = parseFloat(a);
-document.getElementById('demo').innerText = ham;
+const div = 50;
 const id = [];
 for (let i = 1; i <= div; i++) {
     id.push(i);
@@ -34,6 +27,7 @@ const idlength = id.length;
 
 const maindiv = document.createElement('div');
 maindiv.setAttribute('class','container');
+maindiv.setAttribute('id','container');
 document.getElementById('main').appendChild(maindiv);
 
 for (let start = 0; start < idlength; start++) {
@@ -45,12 +39,15 @@ for (let start = 0; start < idlength; start++) {
     
 
  function changebutton() {
+    const container = document.getElementById('container');
     const numid = id[Math.floor(id.length * Math.random())];
     const choose = rainbow[Math.floor(7 * Math.random())];
     const chooseshadow = `0 0 ${one} ${choose}, 0 0 ${two} ${choose},0 0 ${three} ${choose}`;
 
     document.getElementById('button').style.boxShadow = chooseshadow;
     document.getElementById('button').style.textShadow = chooseshadow;
+    document.getElementById('container').style.boxShadow = chooseshadow;
+
 
 }
 function change() {
@@ -77,7 +74,7 @@ function gofunction() {
         setTimeout(function () {
             console.log(i);
             change()
-        }, 100 * i);
+        }, 1 * i);
     }
 
     for (let h = 0; h < 10; h++) {
@@ -90,6 +87,8 @@ function gofunction() {
             changebutton()
         }, 1000 * h);
     }
+
+
 
     
 };
