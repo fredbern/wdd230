@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+}
+button {
+    margin: 20px 10px 40px 120px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 24px;
+    width: 300px;
+    border: none;
+    color: white;
+    text-shadow: 0 0 1px white, 0 0 10px white, 0 0 20px white;
+    background-color: black;
+    box-shadow: 0 0 1px #fff,0 0 10px #fff,0 0 20px white;
+
+}
+
+.container {
+    margin: 10px auto;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    padding: 20px;
+    
+    
+}
+
+.children {
+    height: 70px;
+    width: 20px;
+    border-radius: 25px;
+   /* box-shadow: 0 0 1px #fff,0 0 10px #fff,0 0 20px #fff,0 0 30px #fff,0 0 40px #fff, 0 0 50px #fff, 0 0 60px #fff, 0 0 70px #fff, 0 0 80px #fff, 0 0 120px #fff;
+*/
+}
