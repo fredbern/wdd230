@@ -14,9 +14,14 @@ const ten = boxshadow[9];
 
 const rainbow = ['white', 'red', 'orange', 'yellow', 'green', 'blue', 'rebeccapurple', 'violet'];
 
-
-const div = 50;
-
+function myFunction(x) {
+var x = document.getElementById("input").value;
+return x;
+}  
+a = myFunction(x);
+const ham = 12;
+const div = parseFloat(a);
+document.getElementById('demo').innerText = ham;
 const id = [];
 for (let i = 1; i <= div; i++) {
     id.push(i);
