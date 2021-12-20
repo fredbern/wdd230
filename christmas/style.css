@@ -1,23 +1,40 @@
 body {
     background-color: black;
 }
+.main {
+    margin: 0 auto;
+    display: block;
+    width: 60%;
+}
+.top {
+    margin: 40px 0;
+    display: flex;
+    gap: 25px;
+}
+
+.input,
 button {
-    margin: 20px 10px 40px 120px;
     padding: 10px;
     border-radius: 10px;
     font-size: 24px;
     width: 300px;
     border: none;
-    color: white;
     text-shadow: 0 0 1px white, 0 0 10px white, 0 0 20px white;
-    background-color: black;
     box-shadow: 0 0 1px #fff,0 0 10px #fff,0 0 20px white;
 
+}
+.input {
+    background-color: white;
+    color: black;
+}
+
+button {
+    background-color: black;
+    color: white;
 }
 
 .container {
     margin: 10px auto;
-    width: 60%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     gap: 100px;
