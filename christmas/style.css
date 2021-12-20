@@ -17,10 +17,10 @@ button {
 
 .container {
     margin: 10px auto;
-    width: 80%;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 150px;
+    width: 60%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 100px;
     padding: 90px;
     border-radius: 25px;
     border: gray solid 2px;
@@ -30,9 +30,19 @@ button {
 }
 
 .children {
-    height: 50px;
-    width: 50px;
-    border-radius: 25px;
-   /* box-shadow: 0 0 1px #fff,0 0 10px #fff,0 0 20px #fff,0 0 30px #fff,0 0 40px #fff, 0 0 50px #fff, 0 0 60px #fff, 0 0 70px #fff, 0 0 80px #fff, 0 0 120px #fff;
-*/
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 1px #fff,0 0 10px #fff,0 0 20px #fff,0 0 30px #fff,0 0 40px #fff, 0 0 50px #fff, 0 0 60px #fff, 0 0 70px #fff, 0 0 80px #fff, 0 0 120px #fff;
+}
+
+.abc {
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+@media only screen and (min-width: 35rem) {
+
 }
