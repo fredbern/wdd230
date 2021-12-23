@@ -148,7 +148,7 @@ nav a {
 }
 .btn{
     padding : 0.75rem 1.5rem;
-    background-color: #f86c35;
+    background-color: #e8476f;
     border-radius: 10px;
     text-align: center;
     font-size: 24px;
@@ -390,7 +390,6 @@ nav a {
     position: relative;
     margin: 0 auto;
     padding: 20px;
-    border: 1px solid #404040;
 }
 
 #mylist li {
@@ -398,14 +397,13 @@ nav a {
     margin-top: 20px;
     border: none;
     padding: 0 0 10px 0;
-    border: gray solid 1px;
     list-style-type: none;
     width: 100%;
     text-align: center;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .h3 {
-    background-color: #50b693;
+    background-color: #e8476f;
     padding: 5px;
     margin-bottom: 5px;
 }
@@ -611,11 +609,10 @@ form {
     margin:auto;
     max-width: 1300px;
     padding: 20px;
-    background-color: #50b693;
+    background-color: #000000;
 }
 .footer h3 {
-    color: #000000;
+    color: #FFFFFF;
     text-align: center;
 }
-
 
