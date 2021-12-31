@@ -1,0 +1,74 @@
+{
+    "questionaire": [
+      {
+        "question": "When is your birthday?",
+        "answer" : [
+          ["select", ""],
+          ["January-March", 40],
+          ["April-June",	30],
+          ["July-September",	20],
+          ["October-December", 10]
+        ]
+      },
+      {
+        "question": "Pick you favorite season.",
+        "answer" : [
+        ["select", ""],
+        ["summer", 20],
+        ["spring", 30],
+        ["winter", 40],
+        ["fall", 40]
+      ]
+      },
+      {
+        "question": "What is the date of your birth?",
+        "answer" : [
+          ["select", ""],
+          ["1-8", 10],
+          ["9-10", 40],
+          ["18-26", 30],
+          ["26-31", 20]
+        ]
+      },
+      {
+        "question": "What time of day or night was it when you were born?",
+        "answer": [
+          ["select", ""],
+          ["12am-7am", 40],
+          ["7am-2pm", 20],
+          ["2pm-9pm", 10],
+          ["9pm-12am", 30]
+        ]
+      },
+      {
+        "question": "Pick the personality trait that's most prominent in your character.",
+        "answer": [
+          ["select", ""],
+          ["thoughtful", 40],
+          ["creativity", 20],
+          ["cheerfulness", 30],
+          ["discipline", 10]
+      ]
+      },
+      {
+        "question": "What are your favorite colors?",
+        "answer": [
+          ["select", ""],
+          ["yellow and orange", 10],
+          ["green and blue", 20],
+          ["pink and red", 30],
+          ["black and white", 40]
+        ]
+      },
+      {
+        "question": "which animal do you like the most?",
+        "answer": [
+          ["select", ""],
+          ["fox", 10],
+          ["wolf", 40],
+          ["dorphin", 20],
+          ["dear", 30]
+        ]
+      }
+    ]
+}

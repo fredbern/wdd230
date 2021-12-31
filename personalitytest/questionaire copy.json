@@ -1,0 +1,53 @@
+{
+    "questionaire": [
+      {
+        "question": "When is your birthday?",
+        "a": ["January-March", 40],
+        "b": ["April-June",	30],
+        "c": ["July-September",	20],
+        "d": ["October-December", 10]
+      },
+      {
+        "question": "Pick you favorite season.",
+        "a": ["summer", 20],
+        "b": ["spring", 30],
+        "c": ["winter", 40],
+        "d": ["fall", 40]
+      },
+      {
+        "question": "What is the date of your birth?",
+        "a": ["1-8", 10],
+        "b": ["9-10", 40],
+        "c": ["18-26", 30],
+        "d": ["26-31", 20]
+      },
+      {
+        "question": "What time of day or night was it when you were born?",
+        "a": ["12am-7am", 40],
+        "b": ["7am-2pm", 20],
+        "c": ["2pm-9pm", 10],
+        "d": ["9pm-12am", 30]
+      },
+      {
+        "question": "Pick the personality trait that's most prominent in your character.",
+        "a": ["thoughtful", 40],
+        "b": ["creativity", 20],
+        "c": ["cheerfulness", 30],
+        "d": ["discipline", 10]
+      },
+      {
+        "question": "What are your favorite colors?",
+        "a": ["yellow and orange", 10],
+        "b": ["green and blue", 20],
+        "c": ["pink and red", 30],
+        "d": ["black and white", 40]
+      },
+      {
+        "question": "which animal do you like the most?",
+        "a": ["fox", 10],
+        "b": ["wolf", 40],
+        "c": ["dorphin", 20],
+        "d": ["dear", 30]
+      }
+    ]
+}
