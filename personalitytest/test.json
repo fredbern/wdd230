@@ -1,0 +1,24 @@
+{
+  "questionaire": [
+    {
+      "question": "When is your birthday?",
+      "answer" : [
+        ["select", ""],
+        ["January-March", 40],
+        ["April-June",	30],
+        ["July-September",	20],
+        ["October-December", 10]
+      ]
+    },
+    {
+      "question": "which animal do you like the most?",
+      "answer": [
+        ["select", ""],
+        ["fox", 10],
+        ["wolf", 40],
+        ["dorphin", 20],
+        ["dear", 30]
+      ]
+    }
+  ]
+}

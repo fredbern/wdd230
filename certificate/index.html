@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="js/script.js"></script>
+<style>
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {background-color: yellow;}
+</style>
+</head>
+<body>
+
+<h2>Hoverable Table</h2>
+
+<p>Move the mouse over the table rows to see the effect.</p>
+
+<div class="container">
+    <div class="certificate">
+        <div class="logo">
+            <div class="cert-title">
+                <h2>Business Administrator</h2>
+            </div>
+            <div class="byui-logo">
+                <h1>BYUI</h1>
+                <h2>IDAHO</h2>
+            </div>
+        </div>
+        <div class="table">
+    
+        </div>
+    </div>
+</div>
+<script>
+    //certificate div and table th -- BEGIN HERE
+    const certificate = document.createElement('div');
+    certificate.setAttribute('class','certificate');
+
+    const logo = document.createElement('div');
+    logo.setAttribute('class','logo');
+
+    const certitle = document.createElement('div');
+    certitle.setAttribute('class','cert-title');
+
+    const certname = document.createElement('h2');
+    certname.setAttribute('class','cert-name');
+    certname.innerText = 'Business Admin';
+
+    const byuilogo = document.createElement('div');
+    byuilogo.setAttribute('class','byui-logo');
+    const byuih1 = document.createElement('h1');
+    byuih1.setAttribute('class','byuih1');
+    const byuih2 = document.createElement('h2');
+    byuih2.setAttribute('class','byuih2');
+
+
+    const byui = document.createElement('div');
+    const table = document.createElement('table');
+
+    const tr = document.createElement('tr');
+    const th = document.createElement('th');
+    //certificate div and table th - END HERE
+
+    const td = document.createElement('td');
+</script>
+<table>
+  <tr>
+    <th>First Name</th>
+    <th>Last Name</th>
+    <th>Points</th>
+  </tr>
+  <tr>
+    <td>Peter</td>
+    <td>Griffin</td>
+    <td>$100</td>
+  </tr>
+  <tr>
+    <td>Lois</td>
+    <td>Griffin</td>
+    <td>$150</td>
+  </tr>
+  <tr>
+    <td>Joe</td>
+    <td>Swanson</td>
+    <td>$300</td>
+  </tr>
+  <tr>
+    <td>Cleveland</td>
+    <td>Brown</td>
+    <td>$250</td>
+  </tr>
+</table>
+
+</body>
+</html>
+
+
