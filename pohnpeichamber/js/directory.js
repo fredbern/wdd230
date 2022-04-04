@@ -1,11 +1,12 @@
 const requestURL = "js/directory.json";
 fetch(requestURL)
-    .then(function (response) {
-        return response.json();
+    .then(Response =>{
+        console.log(Response)
+        return Response.json();
     })
-
-    .then(function (jsonObject) {
+    .then(jsonObject =>{
         console.table(jsonObject); // temporary checking for valid response and data parsing
+        console.log(jsonObject);
         const business = jsonObject['business'];
         business.forEach((business, index, array) => { //forEach is replacing the for loop
 
