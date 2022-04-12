@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Json</title>
+</head>
+<body>
+    
+    <div class="left-event"></div>
+    <div class="new"></div>
+
+    <script>
+
+        const list = [
+            "One",
+            "Two",
+            "Three"
+        ]
+        let ndiv = document.querySelector('.new')
+
+        //list.forEach(element => {
+            for(var i = 0; i < list.length; i++) {
+                let h = document.createElement('h2');
+                let className = `'class${1+i}'`
+                h.setAttribute('class', className);
+                h.innerHTML = list[i];
+                ndiv.appendChild(h);
+            }
+            
+       // });
+
+        // for(var i = 0; i < list.length; i++) {
+        //     let p = document.createElement('p');
+        //     p.innerText = "hello";
+        //     ndiv.appendChild(p);
+
+        // })
+
+
+        // const requestURL = 'js/events.json';
+        //     fetch(requestURL)
+        //     .then(function (response) {
+        //         return response.json();
+        //         console.log(response);
+        //     })
+        //     .then(function (jsonObject) {
+        //         console.table(jsonObject);
+        //         const events = jsonObject['events'];
+        //         console.table(events);
+        //         let div = document.querySelector('.left-events');
+        //         let ndiv = document.querySelector('.new');
+
+        //         events.forEach((events) => {
+        //         let newDiv = document.createElement('div');
+        //         let event = document.createElement('h4');
+        //         let date = document.createElement('p');
+        //         let location = document.createElement('p');
+        //         event.textContent = `${events.event}`;
+        //         date.textContent = `Date: ${events.date}`;
+        //         location.textContent = `Location: ${events.location}`;
+        //         newDiv.appendChild(date);
+        //         div.appendChild(newDiv);
+        //     })
+            
+
+        // });
+    </script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+h1, h2, h3 {
+    text-align: center;
+}
+.container {
+    margin:  0 auto;
+    width: 800px;
+}
+table {
+    margin: 0 auto;
+}
+th, td {
+    border: 1px solid gray;
+    padding: 5px 10px;
+}
